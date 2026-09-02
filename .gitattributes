@@ -1,0 +1,13 @@
+* text=auto
+
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+# Preserve generated CSV bytes exactly; some writers intentionally use CRLF.
+*.csv -text
+*.yml text eol=lf
+*.vtk text eol=lf
+
+*.png binary
+*.docx binary
+*.zip binary
