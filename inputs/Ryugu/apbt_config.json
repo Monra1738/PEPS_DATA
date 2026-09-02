@@ -1,0 +1,1046 @@
+{
+    "Ryugu/crater_1": [
+        {
+            "n_iter_1": 60,
+            "n_iter_2": 20,
+            "n_iter_3": 60,
+            "top_percent_1": 95.0,
+            "top_percent_2": 95.0,
+            "things_weight": 0.8,
+            "INVERSE": true,
+            "USE_DETRAIN": false
+        }
+    ],
+    "Ryugu/crater_2": [
+        {
+            "n_iter_1": 60,
+            "n_iter_2": 40,
+            "n_iter_3": 60,
+            "top_percent_1": 95.0,
+            "top_percent_2": 95.0,
+            "things_weight": 0.8,
+            "INVERSE": false,
+            "USE_DETRAIN": false
+        }
+    ],
+    "Ryugu/crater_3": [
+        {
+            "n_iter_1": 30,
+            "n_iter_2": 40,
+            "n_iter_3": 60,
+            "top_percent_1": 95.0,
+            "top_percent_2": 95.0,
+            "things_weight": 0.8,
+            "INVERSE": false,
+            "USE_DETRAIN": false
+        }
+    ],
+    "Ryugu/crater_4": [
+        {
+            "n_iter_1": 30,
+            "n_iter_2": 40,
+            "n_iter_3": 60,
+            "top_percent_1": 95.0,
+            "top_percent_2": 95.0,
+            "things_weight": 0.8,
+            "INVERSE": true,
+            "USE_DETRAIN": false
+        }
+    ],
+    "Ryugu/crater_5": [
+        {
+            "n_iter_1": 80,
+            "n_iter_2": 40,
+            "n_iter_3": 80,
+            "top_percent_1": 95.0,
+            "top_percent_2": 95.0,
+            "things_weight": 0.8,
+            "INVERSE": true,
+            "USE_DETRAIN": false
+        }
+    ],
+    "Ryugu/crater_6": [
+        {
+            "n_iter_1": 10,
+            "n_iter_2": 20,
+            "n_iter_3": 70,
+            "top_percent_1": 95.0,
+            "top_percent_2": 95.0,
+            "things_weight": 0.8,
+            "INVERSE": true,
+            "USE_DETRAIN": false
+        }
+    ],
+    "Ryugu/crater_7": [
+        {
+            "n_iter_1": 10,
+            "n_iter_2": 20,
+            "n_iter_3": 50,
+            "top_percent_1": 95.0,
+            "top_percent_2": 95.0,
+            "things_weight": 0.8,
+            "INVERSE": false,
+            "USE_DETRAIN": false
+        }
+    ],
+    "Ryugu/crater_8": [
+        {
+            "n_iter_1": 2,
+            "n_iter_2": 20,
+            "n_iter_3": 10,
+            "top_percent_1": 95.0,
+            "top_percent_2": 95.0,
+            "things_weight": 0.8,
+            "INVERSE": false,
+            "USE_DETRAIN": false
+        }
+    ],
+    "Ryugu/crater_9": [
+        {
+            "n_iter_1": 2,
+            "n_iter_2": 20,
+            "n_iter_3": 10,
+            "top_percent_1": 95.0,
+            "top_percent_2": 95.0,
+            "things_weight": 0.8,
+            "INVERSE": true,
+            "USE_DETRAIN": false
+        }
+    ],
+    "Ryugu/crater_10": [
+        {
+            "n_iter_1": 10,
+            "n_iter_2": 20,
+            "n_iter_3": 80,
+            "top_percent_1": 95.0,
+            "top_percent_2": 95.0,
+            "things_weight": 0.8,
+            "INVERSE": true,
+            "USE_DETRAIN": false
+        }
+    ],
+    "Ryugu/crater_11": [
+        {
+            "n_iter_1": 10,
+            "n_iter_2": 20,
+            "n_iter_3": 40,
+            "top_percent_1": 95.0,
+            "top_percent_2": 95.0,
+            "things_weight": 0.8,
+            "INVERSE": false,
+            "USE_DETRAIN": false
+        }
+    ],
+    "Ryugu/crater_12": [
+        {
+            "n_iter_1": 30,
+            "n_iter_2": 20,
+            "n_iter_3": 6,
+            "top_percent_1": 95.0,
+            "top_percent_2": 95.0,
+            "things_weight": 0.8,
+            "INVERSE": true,
+            "USE_DETRAIN": false
+        },
+        {
+            "n_iter_1": 30,
+            "n_iter_2": 20,
+            "n_iter_3": 6,
+            "top_percent_1": 95.0,
+            "top_percent_2": 95.0,
+            "things_weight": 0.8,
+            "INVERSE": true,
+            "USE_DETRAIN": false
+        }
+    ],
+    "Ryugu/crater_13": [
+        {
+            "n_iter_1": 50,
+            "n_iter_2": 20,
+            "n_iter_3": 20,
+            "top_percent_1": 95.0,
+            "top_percent_2": 95.0,
+            "things_weight": 0.8,
+            "INVERSE": true,
+            "USE_DETRAIN": false
+        }
+    ],
+    "Ryugu/crater_14": [
+        {
+            "n_iter_1": 10,
+            "n_iter_2": 10,
+            "n_iter_3": 30,
+            "top_percent_1": 98.0,
+            "top_percent_2": 98.0,
+            "things_weight": 0.5,
+            "INVERSE": false,
+            "USE_DETRAIN": false
+        }
+    ],
+    "Ryugu/crater_15": [
+        {
+            "n_iter_1": 8,
+            "n_iter_2": 5,
+            "n_iter_3": 20,
+            "top_percent_1": 90.0,
+            "top_percent_2": 90.0,
+            "things_weight": 0.3,
+            "INVERSE": true,
+            "USE_DETRAIN": false
+        }
+    ],
+    "Ryugu/crater_16": [
+        {
+            "n_iter_1": 50,
+            "n_iter_2": 10,
+            "n_iter_3": 10,
+            "top_percent_1": 95.0,
+            "top_percent_2": 95.0,
+            "things_weight": 0.2,
+            "INVERSE": false,
+            "USE_DETRAIN": false
+        }
+    ],
+    "Ryugu/crater_17": [
+        {
+            "n_iter_1": 5,
+            "n_iter_2": 5,
+            "n_iter_3": 20,
+            "top_percent_1": 95.0,
+            "top_percent_2": 90.0,
+            "things_weight": 0.5,
+            "INVERSE": false,
+            "USE_DETRAIN": false
+        }
+    ],
+    "Ryugu/crater_18": [
+        {
+            "n_iter_1": 10,
+            "n_iter_2": 5,
+            "n_iter_3": 30,
+            "top_percent_1": 95.0,
+            "top_percent_2": 90.0,
+            "things_weight": 0.8,
+            "INVERSE": false,
+            "USE_DETRAIN": false
+        }
+    ],
+    "Ryugu/crater_19": [
+        {
+            "n_iter_1": 10,
+            "n_iter_2": 5,
+            "n_iter_3": 10,
+            "top_percent_1": 95.0,
+            "top_percent_2": 95.0,
+            "things_weight": 0.8,
+            "INVERSE": false,
+            "USE_DETRAIN": false
+        }
+    ],
+    "Ryugu/crater_20": [
+        {
+            "n_iter_1": 8,
+            "n_iter_2": 10,
+            "n_iter_3": 30,
+            "top_percent_1": 95.0,
+            "top_percent_2": 95.0,
+            "things_weight": 0.8,
+            "INVERSE": true,
+            "USE_DETRAIN": false
+        }
+    ],
+    "Ryugu/crater_21": [
+        {
+            "n_iter_1": 8,
+            "n_iter_2": 10,
+            "n_iter_3": 10,
+            "top_percent_1": 95.0,
+            "top_percent_2": 95.0,
+            "things_weight": 0.1,
+            "INVERSE": true,
+            "USE_DETRAIN": false
+        }
+    ],
+    "Ryugu/crater_22": [
+        {
+            "n_iter_1": 10,
+            "n_iter_2": 10,
+            "n_iter_3": 30,
+            "top_percent_1": 90.0,
+            "top_percent_2": 90.0,
+            "things_weight": 0.5,
+            "INVERSE": false,
+            "USE_DETRAIN": false
+        }
+    ],
+    "Ryugu/crater_23": [
+        {
+            "n_iter_1": 20,
+            "n_iter_2": 10,
+            "n_iter_3": 30,
+            "top_percent_1": 90.0,
+            "top_percent_2": 90.0,
+            "things_weight": 0.3,
+            "INVERSE": false,
+            "USE_DETRAIN": false
+        }
+    ],
+    "Ryugu/crater_24": [
+        {
+            "n_iter_1": 5,
+            "n_iter_2": 10,
+            "n_iter_3": 10,
+            "top_percent_1": 95.0,
+            "top_percent_2": 95.0,
+            "things_weight": 0.9,
+            "INVERSE": false,
+            "USE_DETRAIN": false
+        }
+    ],
+    "Ryugu/crater_25": [
+        {
+            "n_iter_1": 1,
+            "n_iter_2": 1,
+            "n_iter_3": 10,
+            "top_percent_1": 90.0,
+            "top_percent_2": 90.0,
+            "things_weight": 0.5,
+            "INVERSE": false,
+            "USE_DETRAIN": false
+        },
+        {
+            "n_iter_1": 1,
+            "n_iter_2": 1,
+            "n_iter_3": 10,
+            "top_percent_1": 90.0,
+            "top_percent_2": 90.0,
+            "things_weight": 0.5,
+            "INVERSE": true,
+            "USE_DETRAIN": false
+        }
+    ],
+    "Ryugu/crater_26": [
+        {
+            "n_iter_1": 20,
+            "n_iter_2": 10,
+            "n_iter_3": 10,
+            "top_percent_1": 95.0,
+            "top_percent_2": 95.0,
+            "things_weight": 0.8,
+            "INVERSE": false,
+            "USE_DETRAIN": false
+        }
+    ],
+    "Ryugu/crater_27": [
+        {
+            "n_iter_1": 10,
+            "n_iter_2": 10,
+            "n_iter_3": 10,
+            "top_percent_1": 95.0,
+            "top_percent_2": 95.0,
+            "things_weight": 0.8,
+            "INVERSE": true,
+            "USE_DETRAIN": false
+        }
+    ],
+    "Ryugu/crater_29": [
+        {
+            "n_iter_1": 40,
+            "n_iter_2": 10,
+            "n_iter_3": 10,
+            "top_percent_1": 95.0,
+            "top_percent_2": 95.0,
+            "things_weight": 0.8,
+            "INVERSE": true,
+            "USE_DETRAIN": false
+        }
+    ],
+    "Ryugu/crater_30": [
+        {
+            "n_iter_1": 1,
+            "n_iter_2": 10,
+            "n_iter_3": 10,
+            "top_percent_1": 90.0,
+            "top_percent_2": 90.0,
+            "things_weight": 0.1,
+            "INVERSE": false,
+            "USE_DETRAIN": false
+        }
+    ],
+    "Ryugu/crater_31": [
+        {
+            "n_iter_1": 10,
+            "n_iter_2": 10,
+            "n_iter_3": 10,
+            "top_percent_1": 90.0,
+            "top_percent_2": 90.0,
+            "things_weight": 0.8,
+            "INVERSE": true,
+            "USE_DETRAIN": false
+        }
+    ],
+    "Ryugu/crater_32": [
+        {
+            "n_iter_1": 40,
+            "n_iter_2": 10,
+            "n_iter_3": 20,
+            "top_percent_1": 95.0,
+            "top_percent_2": 95.0,
+            "things_weight": 0.1,
+            "INVERSE": false,
+            "USE_DETRAIN": false
+        }
+    ],
+    "Ryugu/crater_33": [
+        {
+            "n_iter_1": 20,
+            "n_iter_2": 10,
+            "n_iter_3": 10,
+            "top_percent_1": 95.0,
+            "top_percent_2": 95.0,
+            "things_weight": 0.1,
+            "INVERSE": true,
+            "USE_DETRAIN": false
+        }
+    ],
+    "Ryugu/crater_34": [
+        {
+            "n_iter_1": 10,
+            "n_iter_2": 10,
+            "n_iter_3": 5,
+            "top_percent_1": 90.0,
+            "top_percent_2": 90.0,
+            "things_weight": 0.8,
+            "INVERSE": true,
+            "USE_DETRAIN": false
+        }
+    ],
+    "Ryugu/crater_35": [
+        {
+            "n_iter_1": 10,
+            "n_iter_2": 10,
+            "n_iter_3": 10,
+            "top_percent_1": 90.0,
+            "top_percent_2": 90.0,
+            "things_weight": 0.8,
+            "INVERSE": false,
+            "USE_DETRAIN": false
+        }
+    ],
+    "Ryugu/crater_36": [
+        {
+            "n_iter_1": 5,
+            "n_iter_2": 10,
+            "n_iter_3": 5,
+            "top_percent_1": 90.0,
+            "top_percent_2": 90.0,
+            "things_weight": 0.8,
+            "INVERSE": false,
+            "USE_DETRAIN": false
+        }
+    ],
+    "Ryugu/crater_37": [
+        {
+            "n_iter_1": 5,
+            "n_iter_2": 10,
+            "n_iter_3": 5,
+            "top_percent_1": 90.0,
+            "top_percent_2": 90.0,
+            "things_weight": 0.8,
+            "INVERSE": false,
+            "USE_DETRAIN": false
+        }
+    ],
+    "Ryugu/crater_38": [
+        {
+            "n_iter_1": 20,
+            "n_iter_2": 10,
+            "n_iter_3": 10,
+            "top_percent_1": 90.0,
+            "top_percent_2": 90.0,
+            "things_weight": 0.8,
+            "INVERSE": false,
+            "USE_DETRAIN": false
+        }
+    ],
+    "Ryugu/crater_39": [
+        {
+            "n_iter_1": 20,
+            "n_iter_2": 10,
+            "n_iter_3": 10,
+            "top_percent_1": 95.0,
+            "top_percent_2": 95.0,
+            "things_weight": 0.3,
+            "INVERSE": true,
+            "USE_DETRAIN": false
+        }
+    ],
+    "Ryugu/crater_40": [
+        {
+            "n_iter_1": 10,
+            "n_iter_2": 10,
+            "n_iter_3": 10,
+            "top_percent_1": 90.0,
+            "top_percent_2": 90.0,
+            "things_weight": 0.1,
+            "INVERSE": true,
+            "USE_DETRAIN": false
+        }
+    ],
+    "Ryugu/crater_41": [
+        {
+            "n_iter_1": 5,
+            "n_iter_2": 10,
+            "n_iter_3": 5,
+            "top_percent_1": 95.0,
+            "top_percent_2": 95.0,
+            "things_weight": 0.8,
+            "INVERSE": false,
+            "USE_DETRAIN": false
+        },
+        {
+            "n_iter_1": 5,
+            "n_iter_2": 10,
+            "n_iter_3": 5,
+            "top_percent_1": 95.0,
+            "top_percent_2": 95.0,
+            "things_weight": 0.8,
+            "INVERSE": false,
+            "USE_DETRAIN": false
+        }
+    ],
+    "Ryugu/crater_42": [
+        {
+            "n_iter_1": 40,
+            "n_iter_2": 30,
+            "n_iter_3": 20,
+            "top_percent_1": 70.0,
+            "top_percent_2": 60.0,
+            "things_weight": 0.9,
+            "INVERSE": false,
+            "USE_DETRAIN": false
+        }
+    ],
+    "Ryugu/crater_43": [
+        {
+            "n_iter_1": 5,
+            "n_iter_2": 10,
+            "n_iter_3": 1,
+            "top_percent_1": 95.0,
+            "top_percent_2": 95.0,
+            "things_weight": 0.5,
+            "INVERSE": true,
+            "USE_DETRAIN": false
+        },
+        {
+            "n_iter_1": 5,
+            "n_iter_2": 10,
+            "n_iter_3": 1,
+            "top_percent_1": 95.0,
+            "top_percent_2": 95.0,
+            "things_weight": 0.5,
+            "INVERSE": true,
+            "USE_DETRAIN": false
+        }
+    ],
+    "Ryugu/crater_44": [
+        {
+            "n_iter_1": 10,
+            "n_iter_2": 10,
+            "n_iter_3": 1,
+            "top_percent_1": 95.0,
+            "top_percent_2": 95.0,
+            "things_weight": 0.5,
+            "INVERSE": true,
+            "USE_DETRAIN": false
+        }
+    ],
+    "Ryugu/crater_45": [
+        {
+            "n_iter_1": 10,
+            "n_iter_2": 10,
+            "n_iter_3": 5,
+            "top_percent_1": 90.0,
+            "top_percent_2": 90.0,
+            "things_weight": 0.1,
+            "INVERSE": false,
+            "USE_DETRAIN": false
+        }
+    ],
+    "Ryugu/crater_46": [
+        {
+            "n_iter_1": 10,
+            "n_iter_2": 10,
+            "n_iter_3": 1,
+            "top_percent_1": 95.0,
+            "top_percent_2": 95.0,
+            "things_weight": 0.1,
+            "INVERSE": false,
+            "USE_DETRAIN": false
+        }
+    ],
+    "Ryugu/crater_47": [
+        {
+            "n_iter_1": 10,
+            "n_iter_2": 10,
+            "n_iter_3": 1,
+            "top_percent_1": 95.0,
+            "top_percent_2": 95.0,
+            "things_weight": 0.8,
+            "INVERSE": true,
+            "USE_DETRAIN": false
+        }
+    ],
+    "Ryugu/crater_48": [
+        {
+            "n_iter_1": 1,
+            "n_iter_2": 1,
+            "n_iter_3": 5,
+            "top_percent_1": 90.0,
+            "top_percent_2": 90.0,
+            "things_weight": 0.8,
+            "INVERSE": true,
+            "USE_DETRAIN": false
+        }
+    ],
+    "Ryugu/crater_49": [
+        {
+            "n_iter_1": 10,
+            "n_iter_2": 10,
+            "n_iter_3": 5,
+            "top_percent_1": 90.0,
+            "top_percent_2": 95.0,
+            "things_weight": 0.8,
+            "INVERSE": true,
+            "USE_DETRAIN": false
+        },
+        {
+            "n_iter_1": 10,
+            "n_iter_2": 10,
+            "n_iter_3": 5,
+            "top_percent_1": 90.0,
+            "top_percent_2": 95.0,
+            "things_weight": 0.8,
+            "INVERSE": true,
+            "USE_DETRAIN": false
+        }
+    ],
+    "Ryugu/crater_50": [
+        {
+            "n_iter_1": 1,
+            "n_iter_2": 5,
+            "n_iter_3": 1,
+            "top_percent_1": 95.0,
+            "top_percent_2": 95.0,
+            "things_weight": 0.8,
+            "INVERSE": true,
+            "USE_DETRAIN": false
+        },
+        {
+            "n_iter_1": 1,
+            "n_iter_2": 5,
+            "n_iter_3": 1,
+            "top_percent_1": 95.0,
+            "top_percent_2": 95.0,
+            "things_weight": 0.8,
+            "INVERSE": true,
+            "USE_DETRAIN": false
+        }
+    ],
+    "Ryugu/crater_51": [
+        {
+            "n_iter_1": 5,
+            "n_iter_2": 10,
+            "n_iter_3": 1,
+            "top_percent_1": 95.0,
+            "top_percent_2": 95.0,
+            "things_weight": 0.8,
+            "INVERSE": true,
+            "USE_DETRAIN": false
+        }
+    ],
+    "Ryugu/crater_52": [
+        {
+            "n_iter_1": 1,
+            "n_iter_2": 1,
+            "n_iter_3": 1,
+            "top_percent_1": 95.0,
+            "top_percent_2": 95.0,
+            "things_weight": 0.8,
+            "INVERSE": true,
+            "USE_DETRAIN": false
+        }
+    ],
+    "Ryugu/crater_53": [
+        {
+            "n_iter_1": 5,
+            "n_iter_2": 5,
+            "n_iter_3": 1,
+            "top_percent_1": 90.0,
+            "top_percent_2": 90.0,
+            "things_weight": 0.1,
+            "INVERSE": false,
+            "USE_DETRAIN": false
+        }
+    ],
+    "Ryugu/crater_54": [
+        {
+            "n_iter_1": 5,
+            "n_iter_2": 5,
+            "n_iter_3": 1,
+            "top_percent_1": 95.0,
+            "top_percent_2": 95.0,
+            "things_weight": 0.8,
+            "INVERSE": false,
+            "USE_DETRAIN": false
+        }
+    ],
+    "Ryugu/crater_55": [
+        {
+            "n_iter_1": 1,
+            "n_iter_2": 5,
+            "n_iter_3": 5,
+            "top_percent_1": 95.0,
+            "top_percent_2": 95.0,
+            "things_weight": 0.8,
+            "INVERSE": false,
+            "USE_DETRAIN": false
+        }
+    ],
+    "Ryugu/crater_56": [
+        {
+            "n_iter_1": 1,
+            "n_iter_2": 1,
+            "n_iter_3": 1,
+            "top_percent_1": 90.0,
+            "top_percent_2": 90.0,
+            "things_weight": 0.1,
+            "INVERSE": false,
+            "USE_DETRAIN": false
+        }
+    ],
+    "Ryugu/crater_57": [
+        {
+            "n_iter_1": 1,
+            "n_iter_2": 1,
+            "n_iter_3": 1,
+            "top_percent_1": 95.0,
+            "top_percent_2": 95.0,
+            "things_weight": 0.18,
+            "INVERSE": false,
+            "USE_DETRAIN": false
+        },
+        {
+            "n_iter_1": 1,
+            "n_iter_2": 1,
+            "n_iter_3": 1,
+            "top_percent_1": 95.0,
+            "top_percent_2": 95.0,
+            "things_weight": 0.18,
+            "INVERSE": false,
+            "USE_DETRAIN": false
+        },
+        {
+            "n_iter_1": 1,
+            "n_iter_2": 1,
+            "n_iter_3": 1,
+            "top_percent_1": 95.0,
+            "top_percent_2": 95.0,
+            "things_weight": 0.18,
+            "INVERSE": false,
+            "USE_DETRAIN": false
+        }
+    ],
+    "Ryugu/crater_58": [
+        {
+            "n_iter_1": 1,
+            "n_iter_2": 1,
+            "n_iter_3": 1,
+            "top_percent_1": 95.0,
+            "top_percent_2": 95.0,
+            "things_weight": 0.18,
+            "INVERSE": false,
+            "USE_DETRAIN": false
+        }
+    ],
+    "Ryugu/crater_59": [
+        {
+            "n_iter_1": 1,
+            "n_iter_2": 1,
+            "n_iter_3": 1,
+            "top_percent_1": 90.0,
+            "top_percent_2": 90.0,
+            "things_weight": 0.8,
+            "INVERSE": true,
+            "USE_DETRAIN": false
+        }
+    ],
+    "Ryugu/crater_60": [
+        {
+            "n_iter_1": 1,
+            "n_iter_2": 1,
+            "n_iter_3": 1,
+            "top_percent_1": 95.0,
+            "top_percent_2": 95.0,
+            "things_weight": 0.8,
+            "INVERSE": true,
+            "USE_DETRAIN": false
+        }
+    ],
+    "Ryugu/crater_61": [
+        {
+            "n_iter_1": 1,
+            "n_iter_2": 1,
+            "n_iter_3": 1,
+            "top_percent_1": 95.0,
+            "top_percent_2": 95.0,
+            "things_weight": 0.8,
+            "INVERSE": true,
+            "USE_DETRAIN": false
+        }
+    ],
+    "Ryugu/crater_62": [
+        {
+            "n_iter_1": 5,
+            "n_iter_2": 1,
+            "n_iter_3": 5,
+            "top_percent_1": 90.0,
+            "top_percent_2": 90.0,
+            "things_weight": 0.8,
+            "INVERSE": false,
+            "USE_DETRAIN": false
+        }
+    ],
+    "Ryugu/crater_63": [
+        {
+            "n_iter_1": 5,
+            "n_iter_2": 1,
+            "n_iter_3": 1,
+            "top_percent_1": 90.0,
+            "top_percent_2": 90.0,
+            "things_weight": 0.8,
+            "INVERSE": false,
+            "USE_DETRAIN": false
+        }
+    ],
+    "Ryugu/crater_64": [
+        {
+            "n_iter_1": 35,
+            "n_iter_2": 5,
+            "n_iter_3": 5,
+            "top_percent_1": 90.0,
+            "top_percent_2": 90.0,
+            "things_weight": 0.8,
+            "INVERSE": false,
+            "USE_DETRAIN": false
+        }
+    ],
+    "Ryugu/crater_65": [
+        {
+            "n_iter_1": 1,
+            "n_iter_2": 1,
+            "n_iter_3": 1,
+            "top_percent_1": 95.0,
+            "top_percent_2": 95.0,
+            "things_weight": 0.8,
+            "INVERSE": false,
+            "USE_DETRAIN": false
+        },
+        {
+            "n_iter_1": 1,
+            "n_iter_2": 1,
+            "n_iter_3": 1,
+            "top_percent_1": 95.0,
+            "top_percent_2": 95.0,
+            "things_weight": 0.8,
+            "INVERSE": false,
+            "USE_DETRAIN": false
+        }
+    ],
+    "Ryugu/crater_66": [
+        {
+            "n_iter_1": 5,
+            "n_iter_2": 1,
+            "n_iter_3": 5,
+            "top_percent_1": 95.0,
+            "top_percent_2": 95.0,
+            "things_weight": 0.8,
+            "INVERSE": true,
+            "USE_DETRAIN": false
+        }
+    ],
+    "Ryugu/crater_67": [
+        {
+            "n_iter_1": 1,
+            "n_iter_2": 1,
+            "n_iter_3": 1,
+            "top_percent_1": 95.0,
+            "top_percent_2": 95.0,
+            "things_weight": 0.8,
+            "INVERSE": true,
+            "USE_DETRAIN": false
+        },
+        {
+            "n_iter_1": 1,
+            "n_iter_2": 1,
+            "n_iter_3": 1,
+            "top_percent_1": 95.0,
+            "top_percent_2": 95.0,
+            "things_weight": 0.8,
+            "INVERSE": true,
+            "USE_DETRAIN": false
+        },
+        {
+            "n_iter_1": 1,
+            "n_iter_2": 1,
+            "n_iter_3": 1,
+            "top_percent_1": 95.0,
+            "top_percent_2": 95.0,
+            "things_weight": 0.8,
+            "INVERSE": true,
+            "USE_DETRAIN": false
+        }
+    ],
+    "Ryugu/crater_68": [
+        {
+            "n_iter_1": 1,
+            "n_iter_2": 1,
+            "n_iter_3": 1,
+            "top_percent_1": 90.0,
+            "top_percent_2": 90.0,
+            "things_weight": 0.1,
+            "INVERSE": true,
+            "USE_DETRAIN": false
+        }
+    ],
+    "Ryugu/crater_69": [
+        {
+            "n_iter_1": 1,
+            "n_iter_2": 10,
+            "n_iter_3": 1,
+            "top_percent_1": 90.0,
+            "top_percent_2": 90.0,
+            "things_weight": 0.8,
+            "INVERSE": false,
+            "USE_DETRAIN": false
+        },
+        {
+            "n_iter_1": 1,
+            "n_iter_2": 10,
+            "n_iter_3": 1,
+            "top_percent_1": 90.0,
+            "top_percent_2": 90.0,
+            "things_weight": 0.8,
+            "INVERSE": false,
+            "USE_DETRAIN": false
+        }
+    ],
+    "Ryugu/crater_70": [
+        {
+            "n_iter_1": 2,
+            "n_iter_2": 2,
+            "n_iter_3": 1,
+            "top_percent_1": 90.0,
+            "top_percent_2": 90.0,
+            "things_weight": 0.8,
+            "INVERSE": true,
+            "USE_DETRAIN": false
+        }
+    ],
+    "Ryugu/crater_71": [
+        {
+            "n_iter_1": 1,
+            "n_iter_2": 1,
+            "n_iter_3": 1,
+            "top_percent_1": 95.0,
+            "top_percent_2": 95.0,
+            "things_weight": 0.1,
+            "INVERSE": true,
+            "USE_DETRAIN": false
+        }
+    ],
+    "Ryugu/crater_72": [
+        {
+            "n_iter_1": 1,
+            "n_iter_2": 1,
+            "n_iter_3": 1,
+            "top_percent_1": 95.0,
+            "top_percent_2": 95.0,
+            "things_weight": 0.1,
+            "INVERSE": false,
+            "USE_DETRAIN": false
+        }
+    ],
+    "Ryugu/crater_73": [
+        {
+            "n_iter_1": 1,
+            "n_iter_2": 1,
+            "n_iter_3": 1,
+            "top_percent_1": 95.0,
+            "top_percent_2": 95.0,
+            "things_weight": 0.1,
+            "INVERSE": false,
+            "USE_DETRAIN": false
+        }
+    ],
+    "Ryugu/crater_74": [
+        {
+            "n_iter_1": 5,
+            "n_iter_2": 1,
+            "n_iter_3": 1,
+            "top_percent_1": 90.0,
+            "top_percent_2": 90.0,
+            "things_weight": 0.8,
+            "INVERSE": false,
+            "USE_DETRAIN": false
+        }
+    ],
+    "Ryugu/crater_75": [
+        {
+            "n_iter_1": 5,
+            "n_iter_2": 5,
+            "n_iter_3": 1,
+            "top_percent_1": 90.0,
+            "top_percent_2": 90.0,
+            "things_weight": 0.1,
+            "INVERSE": false,
+            "USE_DETRAIN": false
+        }
+    ],
+    "Ryugu/crater_28": [
+        {
+            "n_iter_1": 10,
+            "n_iter_2": 10,
+            "n_iter_3": 10,
+            "top_percent_1": 95.0,
+            "top_percent_2": 95.0,
+            "things_weight": 0.8,
+            "INVERSE": false,
+            "USE_DETRAIN": false
+        }
+    ],
+    "Ryugu/crater_76": [
+        {
+            "n_iter_1": 5,
+            "n_iter_2": 1,
+            "n_iter_3": 1,
+            "top_percent_1": 90.0,
+            "top_percent_2": 90.0,
+            "things_weight": 0.8,
+            "INVERSE": true,
+            "USE_DETRAIN": false
+        }
+    ],
+    "Ryugu/crater_77": [
+        {
+            "n_iter_1": 5,
+            "n_iter_2": 5,
+            "n_iter_3": 1,
+            "top_percent_1": 90.0,
+            "top_percent_2": 80.0,
+            "things_weight": 0.9,
+            "INVERSE": false,
+            "USE_DETRAIN": false
+        }
+    ]
+}

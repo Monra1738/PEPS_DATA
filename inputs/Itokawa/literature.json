@@ -1,0 +1,663 @@
+{
+  "source": {
+    "title": "Survey of possible impact structures on Itokawa - Table 1",
+    "file": "naru_hirata_et_al2018(1).pdf",
+    "page": 7,
+    "notes": {
+      "diameter_columns": {
+        "major_axis_m": "a",
+        "minor_axis_m": "b"
+      },
+      "depth_to_diameter_ratio_uses": "minor axis diameter (b)",
+      "name_note": "All names except Uchinoura are submitted to IAU and under consideration."
+    }
+  },
+  "crater_candidates": [
+    {
+      "id": 1,
+      "location": {
+        "latitude": 25,
+        "longitude": 348
+      },
+      "diameter_m": {
+        "minor_axis_b": 134,
+        "major_axis_a": 163
+      },
+      "depth_m": 15.0,
+      "depth_to_diameter_ratio": 0.11,
+      "floor_type": "P",
+      "rim_material_type": "D",
+      "confidence_classification": 4,
+      "name": "Yoshinobu"
+    },
+    {
+      "id": 2,
+      "location": {
+        "latitude": -10,
+        "longitude": 175
+      },
+      "diameter_m": {
+        "minor_axis_b": 128,
+        "major_axis_a": 161
+      },
+      "depth_m": 15.0,
+      "depth_to_diameter_ratio": 0.12,
+      "floor_type": "P",
+      "rim_material_type": "B",
+      "confidence_classification": 2,
+      "name": "Arcoona"
+    },
+    {
+      "id": 3,
+      "location": {
+        "latitude": -2,
+        "longitude": 275
+      },
+      "diameter_m": {
+        "minor_axis_b": 117,
+        "major_axis_a": 140
+      },
+      "depth_m": 17.5,
+      "depth_to_diameter_ratio": 0.15,
+      "floor_type": "P",
+      "rim_material_type": "PB",
+      "confidence_classification": 4,
+      "name": "Ohsumi"
+    },
+    {
+      "id": 4,
+      "location": {
+        "latitude": 0,
+        "longitude": 128
+      },
+      "diameter_m": {
+        "minor_axis_b": 104,
+        "major_axis_a": 122
+      },
+      "depth_m": 7.5,
+      "depth_to_diameter_ratio": 0.07,
+      "floor_type": "N",
+      "rim_material_type": "PB",
+      "confidence_classification": 3,
+      "name": "LINEAR"
+    },
+    {
+      "id": 5,
+      "location": {
+        "latitude": 40,
+        "longitude": 112
+      },
+      "diameter_m": {
+        "minor_axis_b": 102,
+        "major_axis_a": 128
+      },
+      "depth_m": 3.8,
+      "depth_to_diameter_ratio": 0.04,
+      "floor_type": "A",
+      "rim_material_type": "D",
+      "confidence_classification": 2,
+      "name": "Uchinoura"
+    },
+    {
+      "id": 6,
+      "location": {
+        "latitude": 8,
+        "longitude": 8
+      },
+      "diameter_m": {
+        "minor_axis_b": 74,
+        "major_axis_a": 88
+      },
+      "depth_m": 10.0,
+      "depth_to_diameter_ratio": 0.14,
+      "floor_type": "N",
+      "rim_material_type": "B",
+      "confidence_classification": 2,
+      "name": "Miyabaru"
+    },
+    {
+      "id": 7,
+      "location": {
+        "latitude": -8,
+        "longitude": 17
+      },
+      "diameter_m": {
+        "minor_axis_b": 64,
+        "major_axis_a": 66
+      },
+      "depth_m": 7.5,
+      "depth_to_diameter_ratio": 0.12,
+      "floor_type": "N",
+      "rim_material_type": "PB",
+      "confidence_classification": 4,
+      "name": null
+    },
+    {
+      "id": 8,
+      "location": {
+        "latitude": 15,
+        "longitude": 172
+      },
+      "diameter_m": {
+        "minor_axis_b": 61,
+        "major_axis_a": 61
+      },
+      "depth_m": 6.3,
+      "depth_to_diameter_ratio": 0.1,
+      "floor_type": "N",
+      "rim_material_type": "PB",
+      "confidence_classification": 4,
+      "name": null
+    },
+    {
+      "id": 9,
+      "location": {
+        "latitude": 20,
+        "longitude": 134
+      },
+      "diameter_m": {
+        "minor_axis_b": 54,
+        "major_axis_a": 62
+      },
+      "depth_m": 3.8,
+      "depth_to_diameter_ratio": 0.07,
+      "floor_type": "N",
+      "rim_material_type": "PB",
+      "confidence_classification": 4,
+      "name": null
+    },
+    {
+      "id": 10,
+      "location": {
+        "latitude": -40,
+        "longitude": 244
+      },
+      "diameter_m": {
+        "minor_axis_b": 46,
+        "major_axis_a": 47
+      },
+      "depth_m": 2.0,
+      "depth_to_diameter_ratio": 0.04,
+      "floor_type": "P",
+      "rim_material_type": "PB",
+      "confidence_classification": 3,
+      "name": null
+    },
+    {
+      "id": 11,
+      "location": {
+        "latitude": -6,
+        "longitude": 151
+      },
+      "diameter_m": {
+        "minor_axis_b": 42,
+        "major_axis_a": 52
+      },
+      "depth_m": 3.0,
+      "depth_to_diameter_ratio": 0.07,
+      "floor_type": "N",
+      "rim_material_type": "PB",
+      "confidence_classification": 3,
+      "name": null
+    },
+    {
+      "id": 12,
+      "location": {
+        "latitude": 17,
+        "longitude": 215
+      },
+      "diameter_m": {
+        "minor_axis_b": 39,
+        "major_axis_a": 39
+      },
+      "depth_m": 3.0,
+      "depth_to_diameter_ratio": 0.08,
+      "floor_type": "N",
+      "rim_material_type": "PB",
+      "confidence_classification": 3,
+      "name": null
+    },
+    {
+      "id": 13,
+      "location": {
+        "latitude": 34,
+        "longitude": 269
+      },
+      "diameter_m": {
+        "minor_axis_b": 37,
+        "major_axis_a": 37
+      },
+      "depth_m": 0.5,
+      "depth_to_diameter_ratio": 0.01,
+      "floor_type": "A",
+      "rim_material_type": "D",
+      "confidence_classification": 1,
+      "name": "Fuchinobe"
+    },
+    {
+      "id": 14,
+      "location": {
+        "latitude": 4,
+        "longitude": 145
+      },
+      "diameter_m": {
+        "minor_axis_b": 34,
+        "major_axis_a": 52
+      },
+      "depth_m": 3.0,
+      "depth_to_diameter_ratio": 0.09,
+      "floor_type": "P",
+      "rim_material_type": "PB",
+      "confidence_classification": 3,
+      "name": null
+    },
+    {
+      "id": 15,
+      "location": {
+        "latitude": -10,
+        "longitude": 102
+      },
+      "diameter_m": {
+        "minor_axis_b": 27,
+        "major_axis_a": 28
+      },
+      "depth_m": 0.8,
+      "depth_to_diameter_ratio": 0.03,
+      "floor_type": "A",
+      "rim_material_type": "B",
+      "confidence_classification": 1,
+      "name": "Komaba"
+    },
+    {
+      "id": 16,
+      "location": {
+        "latitude": -18,
+        "longitude": 205
+      },
+      "diameter_m": {
+        "minor_axis_b": 26,
+        "major_axis_a": 28
+      },
+      "depth_m": 2.6,
+      "depth_to_diameter_ratio": 0.1,
+      "floor_type": "P",
+      "rim_material_type": "B",
+      "confidence_classification": 2,
+      "name": "Hammaguira"
+    },
+    {
+      "id": 17,
+      "location": {
+        "latitude": -26,
+        "longitude": 216
+      },
+      "diameter_m": {
+        "minor_axis_b": 26,
+        "major_axis_a": 29
+      },
+      "depth_m": 1.0,
+      "depth_to_diameter_ratio": 0.04,
+      "floor_type": "N",
+      "rim_material_type": "D",
+      "confidence_classification": 4,
+      "name": null
+    },
+    {
+      "id": 18,
+      "location": {
+        "latitude": -36,
+        "longitude": 221
+      },
+      "diameter_m": {
+        "minor_axis_b": 25,
+        "major_axis_a": 31
+      },
+      "depth_m": 0.3,
+      "depth_to_diameter_ratio": 0.01,
+      "floor_type": "A",
+      "rim_material_type": "D",
+      "confidence_classification": 4,
+      "name": null
+    },
+    {
+      "id": 19,
+      "location": {
+        "latitude": -33,
+        "longitude": 212
+      },
+      "diameter_m": {
+        "minor_axis_b": 25,
+        "major_axis_a": 26
+      },
+      "depth_m": 1.2,
+      "depth_to_diameter_ratio": 0.05,
+      "floor_type": "N",
+      "rim_material_type": "D",
+      "confidence_classification": 3,
+      "name": null
+    },
+    {
+      "id": 20,
+      "location": {
+        "latitude": -15,
+        "longitude": 254
+      },
+      "diameter_m": {
+        "minor_axis_b": 24,
+        "major_axis_a": 26
+      },
+      "depth_m": 1.1,
+      "depth_to_diameter_ratio": 0.05,
+      "floor_type": "P",
+      "rim_material_type": "B",
+      "confidence_classification": 4,
+      "name": null
+    },
+    {
+      "id": 21,
+      "location": {
+        "latitude": -18,
+        "longitude": 7
+      },
+      "diameter_m": {
+        "minor_axis_b": 21,
+        "major_axis_a": 22
+      },
+      "depth_m": 2.0,
+      "depth_to_diameter_ratio": 0.1,
+      "floor_type": "P",
+      "rim_material_type": "D",
+      "confidence_classification": 4,
+      "name": "Laurel"
+    },
+    {
+      "id": 22,
+      "location": {
+        "latitude": 1,
+        "longitude": 162
+      },
+      "diameter_m": {
+        "minor_axis_b": 19,
+        "major_axis_a": 22
+      },
+      "depth_m": 0.3,
+      "depth_to_diameter_ratio": 0.02,
+      "floor_type": "A",
+      "rim_material_type": "D",
+      "confidence_classification": 2,
+      "name": null
+    },
+    {
+      "id": 23,
+      "location": {
+        "latitude": -17,
+        "longitude": 14
+      },
+      "diameter_m": {
+        "minor_axis_b": 18,
+        "major_axis_a": 21
+      },
+      "depth_m": 1.0,
+      "depth_to_diameter_ratio": 0.06,
+      "floor_type": "P",
+      "rim_material_type": "D",
+      "confidence_classification": 2,
+      "name": "Catalina"
+    },
+    {
+      "id": 24,
+      "location": {
+        "latitude": 12,
+        "longitude": 52
+      },
+      "diameter_m": {
+        "minor_axis_b": 18,
+        "major_axis_a": 18
+      },
+      "depth_m": 1.1,
+      "depth_to_diameter_ratio": 0.06,
+      "floor_type": "A",
+      "rim_material_type": "B",
+      "confidence_classification": 3,
+      "name": null
+    },
+    {
+      "id": 25,
+      "location": {
+        "latitude": 17,
+        "longitude": 183
+      },
+      "diameter_m": {
+        "minor_axis_b": 17,
+        "major_axis_a": 21
+      },
+      "depth_m": 1.3,
+      "depth_to_diameter_ratio": 0.08,
+      "floor_type": "P",
+      "rim_material_type": "D",
+      "confidence_classification": 4,
+      "name": null
+    },
+    {
+      "id": 26,
+      "location": {
+        "latitude": 24,
+        "longitude": 169
+      },
+      "diameter_m": {
+        "minor_axis_b": 17,
+        "major_axis_a": 18
+      },
+      "depth_m": 1.0,
+      "depth_to_diameter_ratio": 0.06,
+      "floor_type": "A",
+      "rim_material_type": "D",
+      "confidence_classification": 4,
+      "name": null
+    },
+    {
+      "id": 27,
+      "location": {
+        "latitude": -17,
+        "longitude": 345
+      },
+      "diameter_m": {
+        "minor_axis_b": 16,
+        "major_axis_a": 16
+      },
+      "depth_m": 0.5,
+      "depth_to_diameter_ratio": 0.03,
+      "floor_type": "P",
+      "rim_material_type": "D",
+      "confidence_classification": 3,
+      "name": null
+    },
+    {
+      "id": 28,
+      "location": {
+        "latitude": -13,
+        "longitude": 277
+      },
+      "diameter_m": {
+        "minor_axis_b": 15,
+        "major_axis_a": 15
+      },
+      "depth_m": 0.3,
+      "depth_to_diameter_ratio": 0.01,
+      "floor_type": "A",
+      "rim_material_type": "D",
+      "confidence_classification": 4,
+      "name": null
+    },
+    {
+      "id": 29,
+      "location": {
+        "latitude": 19,
+        "longitude": 45
+      },
+      "diameter_m": {
+        "minor_axis_b": 15,
+        "major_axis_a": 16
+      },
+      "depth_m": 0.7,
+      "depth_to_diameter_ratio": 0.05,
+      "floor_type": "A",
+      "rim_material_type": "B",
+      "confidence_classification": 3,
+      "name": null
+    },
+    {
+      "id": 30,
+      "location": {
+        "latitude": -39,
+        "longitude": 117
+      },
+      "diameter_m": {
+        "minor_axis_b": 15,
+        "major_axis_a": 16
+      },
+      "depth_m": 0.3,
+      "depth_to_diameter_ratio": 0.01,
+      "floor_type": "A",
+      "rim_material_type": "D",
+      "confidence_classification": 3,
+      "name": null
+    },
+    {
+      "id": 31,
+      "location": {
+        "latitude": 28,
+        "longitude": 202
+      },
+      "diameter_m": {
+        "minor_axis_b": 15,
+        "major_axis_a": 16
+      },
+      "depth_m": 0.5,
+      "depth_to_diameter_ratio": 0.03,
+      "floor_type": "A",
+      "rim_material_type": "D",
+      "confidence_classification": 4,
+      "name": null
+    },
+    {
+      "id": 32,
+      "location": {
+        "latitude": 33,
+        "longitude": 207
+      },
+      "diameter_m": {
+        "minor_axis_b": 13,
+        "major_axis_a": 13
+      },
+      "depth_m": 0.8,
+      "depth_to_diameter_ratio": 0.06,
+      "floor_type": "A",
+      "rim_material_type": "D",
+      "confidence_classification": 4,
+      "name": null
+    },
+    {
+      "id": 33,
+      "location": {
+        "latitude": -40,
+        "longitude": 232
+      },
+      "diameter_m": {
+        "minor_axis_b": 13,
+        "major_axis_a": 14
+      },
+      "depth_m": 1.3,
+      "depth_to_diameter_ratio": 0.1,
+      "floor_type": "UNK",
+      "rim_material_type": "PB",
+      "confidence_classification": 4,
+      "name": null
+    },
+    {
+      "id": 34,
+      "location": {
+        "latitude": -28,
+        "longitude": 45
+      },
+      "diameter_m": {
+        "minor_axis_b": 12,
+        "major_axis_a": 13
+      },
+      "depth_m": 0.5,
+      "depth_to_diameter_ratio": 0.04,
+      "floor_type": "A",
+      "rim_material_type": "D",
+      "confidence_classification": 1,
+      "name": "Kamisunagawa"
+    },
+    {
+      "id": 35,
+      "location": {
+        "latitude": 6,
+        "longitude": 244
+      },
+      "diameter_m": {
+        "minor_axis_b": 8,
+        "major_axis_a": 8
+      },
+      "depth_m": null,
+      "depth_to_diameter_ratio": null,
+      "floor_type": "P",
+      "rim_material_type": "B",
+      "confidence_classification": 2,
+      "name": "Kamoi"
+    },
+    {
+      "id": 36,
+      "location": {
+        "latitude": -33,
+        "longitude": 111
+      },
+      "diameter_m": {
+        "minor_axis_b": 7,
+        "major_axis_a": 8
+      },
+      "depth_m": null,
+      "depth_to_diameter_ratio": null,
+      "floor_type": "A",
+      "rim_material_type": "D",
+      "confidence_classification": 3,
+      "name": null
+    },
+    {
+      "id": 37,
+      "location": {
+        "latitude": -28,
+        "longitude": 319
+      },
+      "diameter_m": {
+        "minor_axis_b": 3,
+        "major_axis_a": 3
+      },
+      "depth_m": null,
+      "depth_to_diameter_ratio": null,
+      "floor_type": "A",
+      "rim_material_type": "D",
+      "confidence_classification": 1,
+      "name": "San Marco"
+    },
+    {
+      "id": 38,
+      "location": {
+        "latitude": -76,
+        "longitude": 205
+      },
+      "diameter_m": {
+        "minor_axis_b": 2,
+        "major_axis_a": 2
+      },
+      "depth_m": null,
+      "depth_to_diameter_ratio": null,
+      "floor_type": "A",
+      "rim_material_type": "D",
+      "confidence_classification": 1,
+      "name": "Gando"
+    }
+  ]
+}

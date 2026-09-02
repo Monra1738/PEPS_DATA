@@ -1,0 +1,2006 @@
+{
+  "crater_database": [
+    {
+      "crater_id": 1,
+      "location": {
+        "latitude": -7.19,
+        "longitude": 92.99
+      },
+      "hirata_2020": {
+        "diameter_m": 290.0,
+        "classification": "I"
+      },
+      "noguchi_2021": {
+        "diameter_m": {
+          "mean": 246.9,
+          "std_dev": 7.0
+        },
+        "depth_m": {
+          "mean": 18.4,
+          "std_dev": 3.8
+        },
+        "depth_to_diameter_ratio": {
+          "mean": 0.07,
+          "std_dev": 0.0
+        },
+        "classification": "I"
+      }
+    },
+    {
+      "crater_id": 2,
+      "location": {
+        "latitude": 28.34,
+        "longitude": 353.68
+      },
+      "hirata_2020": {
+        "diameter_m": 224.0,
+        "classification": "II"
+      },
+      "noguchi_2021": {
+        "diameter_m": {
+          "mean": 207.5,
+          "std_dev": 22.7
+        },
+        "depth_m": {
+          "mean": 22.0,
+          "std_dev": 6.0
+        },
+        "depth_to_diameter_ratio": {
+          "mean": 0.11,
+          "std_dev": 0.06
+        },
+        "classification": "II"
+      }
+    },
+    {
+      "crater_id": 3,
+      "location": {
+        "latitude": -0.7,
+        "longitude": 330.28
+      },
+      "hirata_2020": {
+        "diameter_m": 221.0,
+        "classification": "II"
+      },
+      "noguchi_2021": {
+        "diameter_m": {
+          "mean": 193.8,
+          "std_dev": 26.6
+        },
+        "depth_m": {
+          "mean": 16.9,
+          "std_dev": 11.1
+        },
+        "depth_to_diameter_ratio": {
+          "mean": 0.08,
+          "std_dev": 0.05
+        },
+        "classification": "II"
+      }
+    },
+    {
+      "crater_id": 4,
+      "location": {
+        "latitude": -14.83,
+        "longitude": 51.2
+      },
+      "hirata_2020": {
+        "diameter_m": 183.0,
+        "classification": "I"
+      },
+      "noguchi_2021": {
+        "diameter_m": {
+          "mean": 173.6,
+          "std_dev": 3.8
+        },
+        "depth_m": {
+          "mean": 21.0,
+          "std_dev": 2.8
+        },
+        "depth_to_diameter_ratio": {
+          "mean": 0.12,
+          "std_dev": 0.01
+        },
+        "classification": "I"
+      }
+    },
+    {
+      "crater_id": 5,
+      "location": {
+        "latitude": -50.56,
+        "longitude": 9.84
+      },
+      "hirata_2020": {
+        "diameter_m": 173.0,
+        "classification": "II"
+      },
+      "noguchi_2021": {
+        "diameter_m": {
+          "mean": 191.0,
+          "std_dev": 5.7
+        },
+        "depth_m": {
+          "mean": 14.1,
+          "std_dev": 1.5
+        },
+        "depth_to_diameter_ratio": {
+          "mean": 0.07,
+          "std_dev": 0.01
+        },
+        "classification": "II"
+      }
+    },
+    {
+      "crater_id": 6,
+      "location": {
+        "latitude": 0.42,
+        "longitude": 157.84
+      },
+      "hirata_2020": {
+        "diameter_m": 154.0,
+        "classification": "II"
+      },
+      "noguchi_2021": {
+        "diameter_m": {
+          "mean": 167.3,
+          "std_dev": 0.0
+        },
+        "depth_m": {
+          "mean": 11.6,
+          "std_dev": 0.0
+        },
+        "depth_to_diameter_ratio": {
+          "mean": 0.07,
+          "std_dev": 0.0
+        },
+        "classification": "II"
+      }
+    },
+    {
+      "crater_id": 7,
+      "location": {
+        "latitude": 30.37,
+        "longitude": 145.99
+      },
+      "hirata_2020": {
+        "diameter_m": 145.0,
+        "classification": "II"
+      },
+      "noguchi_2021": {
+        "diameter_m": {
+          "mean": 133.6,
+          "std_dev": 8.5
+        },
+        "depth_m": {
+          "mean": 9.5,
+          "std_dev": 0.3
+        },
+        "depth_to_diameter_ratio": {
+          "mean": 0.07,
+          "std_dev": 0.0
+        },
+        "classification": "II"
+      }
+    },
+    {
+      "crater_id": 8,
+      "location": {
+        "latitude": 3.24,
+        "longitude": 229.95
+      },
+      "hirata_2020": {
+        "diameter_m": 142.0,
+        "classification": "I"
+      },
+      "noguchi_2021": {
+        "diameter_m": {
+          "mean": 128.4,
+          "std_dev": 10.6
+        },
+        "depth_m": {
+          "mean": 8.5,
+          "std_dev": 6.0
+        },
+        "depth_to_diameter_ratio": {
+          "mean": 0.06,
+          "std_dev": 0.04
+        },
+        "classification": "I"
+      }
+    },
+    {
+      "crater_id": 9,
+      "location": {
+        "latitude": -17.19,
+        "longitude": 14.29
+      },
+      "hirata_2020": {
+        "diameter_m": 133.0,
+        "classification": "II"
+      },
+      "noguchi_2021": {
+        "diameter_m": {
+          "mean": 129.5,
+          "std_dev": 3.4
+        },
+        "depth_m": {
+          "mean": 15.9,
+          "std_dev": 2.2
+        },
+        "depth_to_diameter_ratio": {
+          "mean": 0.12,
+          "std_dev": 0.01
+        },
+        "classification": "II"
+      }
+    },
+    {
+      "crater_id": 10,
+      "location": {
+        "latitude": -31.5,
+        "longitude": 47.26
+      },
+      "hirata_2020": {
+        "diameter_m": 131.0,
+        "classification": "I"
+      },
+      "noguchi_2021": {
+        "diameter_m": {
+          "mean": 151.0,
+          "std_dev": 0.0
+        },
+        "depth_m": {
+          "mean": 19.4,
+          "std_dev": 0.0
+        },
+        "depth_to_diameter_ratio": {
+          "mean": 0.13,
+          "std_dev": 0.0
+        },
+        "classification": "I"
+      }
+    },
+    {
+      "crater_id": 11,
+      "location": {
+        "latitude": 17.02,
+        "longitude": 332.23
+      },
+      "hirata_2020": {
+        "diameter_m": 100.0,
+        "classification": "I"
+      },
+      "noguchi_2021": {
+        "diameter_m": {
+          "mean": 98.6,
+          "std_dev": 4.3
+        },
+        "depth_m": {
+          "mean": 10.1,
+          "std_dev": 0.9
+        },
+        "depth_to_diameter_ratio": {
+          "mean": 0.1,
+          "std_dev": 0.01
+        },
+        "classification": "I"
+      }
+    },
+    {
+      "crater_id": 12,
+      "location": {
+        "latitude": -1.88,
+        "longitude": 289.49
+      },
+      "hirata_2020": {
+        "diameter_m": 90.2,
+        "classification": "II"
+      },
+      "noguchi_2021": {
+        "diameter_m": {
+          "mean": 74.4,
+          "std_dev": 17.7
+        },
+        "depth_m": {
+          "mean": 5.8,
+          "std_dev": 2.0
+        },
+        "depth_to_diameter_ratio": {
+          "mean": 0.08,
+          "std_dev": 0.01
+        },
+        "classification": "II"
+      }
+    },
+    {
+      "crater_id": 13,
+      "location": {
+        "latitude": -63.73,
+        "longitude": 24.45
+      },
+      "hirata_2020": {
+        "diameter_m": 85.0,
+        "classification": "II"
+      },
+      "noguchi_2021": {
+        "diameter_m": {
+          "mean": 103.6,
+          "std_dev": 11.3
+        },
+        "depth_m": {
+          "mean": 8.7,
+          "std_dev": 3.5
+        },
+        "depth_to_diameter_ratio": {
+          "mean": 0.09,
+          "std_dev": 0.04
+        },
+        "classification": "III"
+      }
+    },
+    {
+      "crater_id": 14,
+      "location": {
+        "latitude": 16.9,
+        "longitude": 6.44
+      },
+      "hirata_2020": {
+        "diameter_m": 79.0,
+        "classification": "III"
+      },
+      "noguchi_2021": {
+        "diameter_m": {
+          "mean": 71.3,
+          "std_dev": 4.2
+        },
+        "depth_m": {
+          "mean": 6.3,
+          "std_dev": 2.2
+        },
+        "depth_to_diameter_ratio": {
+          "mean": 0.09,
+          "std_dev": 0.03
+        },
+        "classification": "III"
+      }
+    },
+    {
+      "crater_id": 15,
+      "location": {
+        "latitude": -4.54,
+        "longitude": 95.52
+      },
+      "hirata_2020": {
+        "diameter_m": 78.9,
+        "classification": "III"
+      },
+      "noguchi_2021": {
+        "diameter_m": {
+          "mean": 75.9,
+          "std_dev": 5.8
+        },
+        "depth_m": {
+          "mean": 11.4,
+          "std_dev": 2.1
+        },
+        "depth_to_diameter_ratio": {
+          "mean": 0.15,
+          "std_dev": 0.02
+        },
+        "classification": "III"
+      }
+    },
+    {
+      "crater_id": 16,
+      "location": {
+        "latitude": 6.01,
+        "longitude": 308.75
+      },
+      "hirata_2020": {
+        "diameter_m": 77.1,
+        "classification": "I"
+      },
+      "noguchi_2021": {
+        "diameter_m": {
+          "mean": 77.9,
+          "std_dev": 4.5
+        },
+        "depth_m": {
+          "mean": 5.8,
+          "std_dev": 0.6
+        },
+        "depth_to_diameter_ratio": {
+          "mean": 0.07,
+          "std_dev": 0.01
+        },
+        "classification": "I"
+      }
+    },
+    {
+      "crater_id": 17,
+      "location": {
+        "latitude": 23.7,
+        "longitude": 205.33
+      },
+      "hirata_2020": {
+        "diameter_m": 76.2,
+        "classification": "II"
+      },
+      "noguchi_2021": {
+        "diameter_m": {
+          "mean": 74.1,
+          "std_dev": 2.9
+        },
+        "depth_m": {
+          "mean": 7.0,
+          "std_dev": 1.0
+        },
+        "depth_to_diameter_ratio": {
+          "mean": 0.1,
+          "std_dev": 0.01
+        },
+        "classification": "II"
+      }
+    },
+    {
+      "crater_id": 18,
+      "location": {
+        "latitude": 20.86,
+        "longitude": 322.68
+      },
+      "hirata_2020": {
+        "diameter_m": 73.9,
+        "classification": "I"
+      },
+      "noguchi_2021": {
+        "diameter_m": {
+          "mean": 73.7,
+          "std_dev": 2.5
+        },
+        "depth_m": {
+          "mean": 5.8,
+          "std_dev": 1.1
+        },
+        "depth_to_diameter_ratio": {
+          "mean": 0.09,
+          "std_dev": 0.01
+        },
+        "classification": "I"
+      }
+    },
+    {
+      "crater_id": 19,
+      "location": {
+        "latitude": 57.73,
+        "longitude": 342.98
+      },
+      "hirata_2020": {
+        "diameter_m": 73.3,
+        "classification": "II"
+      },
+      "noguchi_2021": {
+        "diameter_m": {
+          "mean": 64.9,
+          "std_dev": 13.6
+        },
+        "depth_m": {
+          "mean": 6.5,
+          "std_dev": 2.2
+        },
+        "depth_to_diameter_ratio": {
+          "mean": 0.1,
+          "std_dev": 0.03
+        },
+        "classification": "II"
+      }
+    },
+    {
+      "crater_id": 20,
+      "location": {
+        "latitude": -11.64,
+        "longitude": 287.71
+      },
+      "hirata_2020": {
+        "diameter_m": 69.0,
+        "classification": "III"
+      },
+      "noguchi_2021": {
+        "diameter_m": {
+          "mean": 80.0,
+          "std_dev": 11.2
+        },
+        "depth_m": {
+          "mean": 5.1,
+          "std_dev": 0.9
+        },
+        "depth_to_diameter_ratio": {
+          "mean": 0.06,
+          "std_dev": 0.01
+        },
+        "classification": "III"
+      }
+    },
+    {
+      "crater_id": 21,
+      "location": {
+        "latitude": -8.44,
+        "longitude": 119.53
+      },
+      "hirata_2020": {
+        "diameter_m": 69.0,
+        "classification": "I"
+      },
+      "noguchi_2021": {
+        "diameter_m": {
+          "mean": 67.6,
+          "std_dev": 5.2
+        },
+        "depth_m": {
+          "mean": 5.2,
+          "std_dev": 0.7
+        },
+        "depth_to_diameter_ratio": {
+          "mean": 0.08,
+          "std_dev": 0.01
+        },
+        "classification": "I"
+      }
+    },
+    {
+      "crater_id": 22,
+      "location": {
+        "latitude": 8.28,
+        "longitude": 111.52
+      },
+      "hirata_2020": {
+        "diameter_m": 65.8,
+        "classification": "III"
+      },
+      "noguchi_2021": {
+        "diameter_m": {
+          "mean": 71.3,
+          "std_dev": 7.0
+        },
+        "depth_m": {
+          "mean": 5.7,
+          "std_dev": 0.6
+        },
+        "depth_to_diameter_ratio": {
+          "mean": 0.08,
+          "std_dev": 0.0
+        },
+        "classification": "III"
+      }
+    },
+    {
+      "crater_id": 23,
+      "location": {
+        "latitude": 18.59,
+        "longitude": 149.73
+      },
+      "hirata_2020": {
+        "diameter_m": 65.8,
+        "classification": "I"
+      },
+      "noguchi_2021": {
+        "diameter_m": {
+          "mean": 70.4,
+          "std_dev": 4.0
+        },
+        "depth_m": {
+          "mean": 5.2,
+          "std_dev": 0.8
+        },
+        "depth_to_diameter_ratio": {
+          "mean": 0.07,
+          "std_dev": 0.01
+        },
+        "classification": "I"
+      }
+    },
+    {
+      "crater_id": 24,
+      "location": {
+        "latitude": 19.65,
+        "longitude": 136.94
+      },
+      "hirata_2020": {
+        "diameter_m": 62.1,
+        "classification": "II"
+      },
+      "noguchi_2021": {
+        "diameter_m": {
+          "mean": 62.4,
+          "std_dev": 5.7
+        },
+        "depth_m": {
+          "mean": 7.3,
+          "std_dev": 0.5
+        },
+        "depth_to_diameter_ratio": {
+          "mean": 0.12,
+          "std_dev": 0.01
+        },
+        "classification": "II"
+      }
+    },
+    {
+      "crater_id": 25,
+      "location": {
+        "latitude": -12.18,
+        "longitude": 179.11
+      },
+      "hirata_2020": {
+        "diameter_m": 61.0,
+        "classification": "II"
+      },
+      "noguchi_2021": {
+        "diameter_m": {
+          "mean": 65.0,
+          "std_dev": 4.5
+        },
+        "depth_m": {
+          "mean": 5.9,
+          "std_dev": 2.0
+        },
+        "depth_to_diameter_ratio": {
+          "mean": 0.09,
+          "std_dev": 0.03
+        },
+        "classification": "II"
+      }
+    },
+    {
+      "crater_id": 26,
+      "location": {
+        "latitude": 28.48,
+        "longitude": 213.16
+      },
+      "hirata_2020": {
+        "diameter_m": 58.2,
+        "classification": "II"
+      },
+      "noguchi_2021": {
+        "diameter_m": {
+          "mean": 54.5,
+          "std_dev": 5.8
+        },
+        "depth_m": {
+          "mean": 4.3,
+          "std_dev": 0.7
+        },
+        "depth_to_diameter_ratio": {
+          "mean": 0.08,
+          "std_dev": 0.01
+        },
+        "classification": "II"
+      }
+    },
+    {
+      "crater_id": 27,
+      "location": {
+        "latitude": -16.28,
+        "longitude": 199.13
+      },
+      "hirata_2020": {
+        "diameter_m": 53.6,
+        "classification": "II"
+      },
+      "noguchi_2021": {
+        "diameter_m": {
+          "mean": 59.3,
+          "std_dev": 1.4
+        },
+        "depth_m": {
+          "mean": 4.3,
+          "std_dev": 1.7
+        },
+        "depth_to_diameter_ratio": {
+          "mean": 0.07,
+          "std_dev": 0.03
+        },
+        "classification": "II"
+      }
+    },
+    {
+      "crater_id": 28,
+      "location": {
+        "latitude": 36.81,
+        "longitude": 121.83
+      },
+      "hirata_2020": {
+        "diameter_m": 52.2,
+        "classification": "III"
+      },
+      "noguchi_2021": {
+        "diameter_m": {
+          "mean": 61.0,
+          "std_dev": 3.7
+        },
+        "depth_m": {
+          "mean": 5.0,
+          "std_dev": 1.1
+        },
+        "depth_to_diameter_ratio": {
+          "mean": 0.08,
+          "std_dev": 0.02
+        },
+        "classification": "III"
+      }
+    },
+    {
+      "crater_id": 29,
+      "location": {
+        "latitude": -36.18,
+        "longitude": 176.65
+      },
+      "hirata_2020": {
+        "diameter_m": 51.3,
+        "classification": "III"
+      },
+      "noguchi_2021": {
+        "diameter_m": {
+          "mean": 49.4,
+          "std_dev": 18.0
+        },
+        "depth_m": {
+          "mean": 4.1,
+          "std_dev": 1.4
+        },
+        "depth_to_diameter_ratio": {
+          "mean": 0.08,
+          "std_dev": 0.0
+        },
+        "classification": "III"
+      }
+    },
+    {
+      "crater_id": 30,
+      "location": {
+        "latitude": -0.07,
+        "longitude": 329.24
+      },
+      "hirata_2020": {
+        "diameter_m": 51.3,
+        "classification": "II"
+      },
+      "noguchi_2021": {
+        "diameter_m": {
+          "mean": 33.5,
+          "std_dev": 5.8
+        },
+        "depth_m": {
+          "mean": 4.1,
+          "std_dev": 1.1
+        },
+        "depth_to_diameter_ratio": {
+          "mean": 0.12,
+          "std_dev": 0.01
+        },
+        "classification": "II"
+      }
+    },
+    {
+      "crater_id": 31,
+      "location": {
+        "latitude": -17.2,
+        "longitude": 307.19
+      },
+      "hirata_2020": {
+        "diameter_m": 48.8,
+        "classification": "II"
+      },
+      "noguchi_2021": {
+        "diameter_m": {
+          "mean": 50.7,
+          "std_dev": 4.0
+        },
+        "depth_m": {
+          "mean": 3.7,
+          "std_dev": 0.8
+        },
+        "depth_to_diameter_ratio": {
+          "mean": 0.07,
+          "std_dev": 0.01
+        },
+        "classification": "II"
+      }
+    },
+    {
+      "crater_id": 32,
+      "location": {
+        "latitude": 33.09,
+        "longitude": 81.45
+      },
+      "hirata_2020": {
+        "diameter_m": 48.4,
+        "classification": "III"
+      },
+      "noguchi_2021": {
+        "diameter_m": {
+          "mean": 51.2,
+          "std_dev": 10.4
+        },
+        "depth_m": {
+          "mean": 4.6,
+          "std_dev": 1.0
+        },
+        "depth_to_diameter_ratio": {
+          "mean": 0.09,
+          "std_dev": 0.02
+        },
+        "classification": "III"
+      }
+    },
+    {
+      "crater_id": 33,
+      "location": {
+        "latitude": -26.28,
+        "longitude": 17.83
+      },
+      "hirata_2020": {
+        "diameter_m": 46.6,
+        "classification": "II"
+      },
+      "noguchi_2021": {
+        "diameter_m": {
+          "mean": 45.9,
+          "std_dev": 1.1
+        },
+        "depth_m": {
+          "mean": 5.3,
+          "std_dev": 0.6
+        },
+        "depth_to_diameter_ratio": {
+          "mean": 0.11,
+          "std_dev": 0.01
+        },
+        "classification": "II"
+      }
+    },
+    {
+      "crater_id": 34,
+      "location": {
+        "latitude": -1.87,
+        "longitude": 279.89
+      },
+      "hirata_2020": {
+        "diameter_m": 44.2,
+        "classification": "II"
+      },
+      "noguchi_2021": {
+        "diameter_m": {
+          "mean": 34.9,
+          "std_dev": 5.8
+        },
+        "depth_m": {
+          "mean": 2.3,
+          "std_dev": 0.7
+        },
+        "depth_to_diameter_ratio": {
+          "mean": 0.06,
+          "std_dev": 0.01
+        },
+        "classification": "II"
+      }
+    },
+    {
+      "crater_id": 35,
+      "location": {
+        "latitude": 33.5,
+        "longitude": 217.25
+      },
+      "hirata_2020": {
+        "diameter_m": 44.1,
+        "classification": "III"
+      },
+      "noguchi_2021": {
+        "diameter_m": {
+          "mean": 40.7,
+          "std_dev": 1.0
+        },
+        "depth_m": {
+          "mean": 2.6,
+          "std_dev": 0.1
+        },
+        "depth_to_diameter_ratio": {
+          "mean": 0.06,
+          "std_dev": 0.0
+        },
+        "classification": "III"
+      }
+    },
+    {
+      "crater_id": 36,
+      "location": {
+        "latitude": 24.37,
+        "longitude": 335.5
+      },
+      "hirata_2020": {
+        "diameter_m": 43.1,
+        "classification": "III"
+      },
+      "noguchi_2021": {
+        "diameter_m": {
+          "mean": 41.4,
+          "std_dev": 1.0
+        },
+        "depth_m": {
+          "mean": 4.3,
+          "std_dev": 1.2
+        },
+        "depth_to_diameter_ratio": {
+          "mean": 0.1,
+          "std_dev": 0.03
+        },
+        "classification": "III"
+      }
+    },
+    {
+      "crater_id": 37,
+      "location": {
+        "latitude": -3.08,
+        "longitude": 47.02
+      },
+      "hirata_2020": {
+        "diameter_m": 42.7,
+        "classification": "I"
+      },
+      "noguchi_2021": {
+        "diameter_m": {
+          "mean": 36.4,
+          "std_dev": 6.9
+        },
+        "depth_m": {
+          "mean": 3.9,
+          "std_dev": 1.9
+        },
+        "depth_to_diameter_ratio": {
+          "mean": 0.1,
+          "std_dev": 0.03
+        },
+        "classification": "I"
+      }
+    },
+    {
+      "crater_id": 38,
+      "location": {
+        "latitude": 18.62,
+        "longitude": 20.92
+      },
+      "hirata_2020": {
+        "diameter_m": 42.5,
+        "classification": "III"
+      },
+      "noguchi_2021": {
+        "diameter_m": {
+          "mean": 53.7,
+          "std_dev": 7.3
+        },
+        "depth_m": {
+          "mean": 5.3,
+          "std_dev": 1.1
+        },
+        "depth_to_diameter_ratio": {
+          "mean": 0.1,
+          "std_dev": 0.01
+        },
+        "classification": "III"
+      }
+    },
+    {
+      "crater_id": 39,
+      "location": {
+        "latitude": -69.03,
+        "longitude": 170.39
+      },
+      "hirata_2020": {
+        "diameter_m": 41.7,
+        "classification": "II"
+      },
+      "noguchi_2021": {
+        "diameter_m": {
+          "mean": 43.7,
+          "std_dev": 5.0
+        },
+        "depth_m": {
+          "mean": 5.4,
+          "std_dev": 1.0
+        },
+        "depth_to_diameter_ratio": {
+          "mean": 0.12,
+          "std_dev": 0.01
+        },
+        "classification": "II"
+      }
+    },
+    {
+      "crater_id": 40,
+      "location": {
+        "latitude": -19.49,
+        "longitude": 150.94
+      },
+      "hirata_2020": {
+        "diameter_m": 41.4,
+        "classification": "III"
+      },
+      "noguchi_2021": {
+        "diameter_m": {
+          "mean": 46.7,
+          "std_dev": 8.2
+        },
+        "depth_m": {
+          "mean": 3.6,
+          "std_dev": 0.9
+        },
+        "depth_to_diameter_ratio": {
+          "mean": 0.08,
+          "std_dev": 0.01
+        },
+        "classification": "III"
+      }
+    },
+    {
+      "crater_id": 41,
+      "location": {
+        "latitude": 11.91,
+        "longitude": 334.53
+      },
+      "hirata_2020": {
+        "diameter_m": 39.9,
+        "classification": "I"
+      },
+      "noguchi_2021": {
+        "diameter_m": {
+          "mean": 42.0,
+          "std_dev": 5.6
+        },
+        "depth_m": {
+          "mean": 5.5,
+          "std_dev": 2.2
+        },
+        "depth_to_diameter_ratio": {
+          "mean": 0.13,
+          "std_dev": 0.04
+        },
+        "classification": "I"
+      }
+    },
+    {
+      "crater_id": 42,
+      "location": {
+        "latitude": 17.52,
+        "longitude": 323.27
+      },
+      "hirata_2020": {
+        "diameter_m": 39.7,
+        "classification": "II"
+      },
+      "noguchi_2021": {
+        "diameter_m": {
+          "mean": 29.4,
+          "std_dev": 1.4
+        },
+        "depth_m": {
+          "mean": 2.3,
+          "std_dev": 0.5
+        },
+        "depth_to_diameter_ratio": {
+          "mean": 0.08,
+          "std_dev": 0.01
+        },
+        "classification": "II"
+      }
+    },
+    {
+      "crater_id": 43,
+      "location": {
+        "latitude": -15.38,
+        "longitude": 328.28
+      },
+      "hirata_2020": {
+        "diameter_m": 37.2,
+        "classification": "II"
+      },
+      "noguchi_2021": {
+        "diameter_m": {
+          "mean": 40.6,
+          "std_dev": 4.0
+        },
+        "depth_m": {
+          "mean": 5.1,
+          "std_dev": 1.3
+        },
+        "depth_to_diameter_ratio": {
+          "mean": 0.13,
+          "std_dev": 0.03
+        },
+        "classification": "II"
+      }
+    },
+    {
+      "crater_id": 44,
+      "location": {
+        "latitude": -14.87,
+        "longitude": 115.35
+      },
+      "hirata_2020": {
+        "diameter_m": 36.5,
+        "classification": "II"
+      },
+      "noguchi_2021": {
+        "diameter_m": {
+          "mean": 42.5,
+          "std_dev": 1.3
+        },
+        "depth_m": {
+          "mean": 3.8,
+          "std_dev": 1.3
+        },
+        "depth_to_diameter_ratio": {
+          "mean": 0.09,
+          "std_dev": 0.02
+        },
+        "classification": "II"
+      }
+    },
+    {
+      "crater_id": 45,
+      "location": {
+        "latitude": 55.75,
+        "longitude": 357.5
+      },
+      "hirata_2020": {
+        "diameter_m": 36.0,
+        "classification": "II"
+      },
+      "noguchi_2021": {
+        "diameter_m": {
+          "mean": 38.7,
+          "std_dev": 2.1
+        },
+        "depth_m": {
+          "mean": 4.1,
+          "std_dev": 0.4
+        },
+        "depth_to_diameter_ratio": {
+          "mean": 0.11,
+          "std_dev": 0.01
+        },
+        "classification": "II"
+      }
+    },
+    {
+      "crater_id": 46,
+      "location": {
+        "latitude": 7.79,
+        "longitude": 173.0
+      },
+      "hirata_2020": {
+        "diameter_m": 34.6,
+        "classification": "I"
+      },
+      "noguchi_2021": {
+        "diameter_m": {
+          "mean": 32.2,
+          "std_dev": 3.9
+        },
+        "depth_m": {
+          "mean": 3.2,
+          "std_dev": 0.6
+        },
+        "depth_to_diameter_ratio": {
+          "mean": 0.1,
+          "std_dev": 0.02
+        },
+        "classification": "I"
+      }
+    },
+    {
+      "crater_id": 47,
+      "location": {
+        "latitude": -34.51,
+        "longitude": 263.82
+      },
+      "hirata_2020": {
+        "diameter_m": 34.4,
+        "classification": "I"
+      },
+      "noguchi_2021": {
+        "diameter_m": {
+          "mean": 31.6,
+          "std_dev": 1.5
+        },
+        "depth_m": {
+          "mean": 3.6,
+          "std_dev": 0.1
+        },
+        "depth_to_diameter_ratio": {
+          "mean": 0.11,
+          "std_dev": 0.01
+        },
+        "classification": "I"
+      }
+    },
+    {
+      "crater_id": 48,
+      "location": {
+        "latitude": -10.68,
+        "longitude": 176.31
+      },
+      "hirata_2020": {
+        "diameter_m": 32.0,
+        "classification": "II"
+      },
+      "noguchi_2021": {
+        "diameter_m": {
+          "mean": 40.1,
+          "std_dev": 9.0
+        },
+        "depth_m": {
+          "mean": 4.2,
+          "std_dev": 1.9
+        },
+        "depth_to_diameter_ratio": {
+          "mean": 0.1,
+          "std_dev": 0.03
+        },
+        "classification": "II"
+      }
+    },
+    {
+      "crater_id": 49,
+      "location": {
+        "latitude": -28.57,
+        "longitude": 9.83
+      },
+      "hirata_2020": {
+        "diameter_m": 30.6,
+        "classification": "II"
+      },
+      "noguchi_2021": {
+        "diameter_m": {
+          "mean": 34.7,
+          "std_dev": 4.2
+        },
+        "depth_m": {
+          "mean": 2.1,
+          "std_dev": 0.2
+        },
+        "depth_to_diameter_ratio": {
+          "mean": 0.06,
+          "std_dev": 0.01
+        },
+        "classification": "II"
+      }
+    },
+    {
+      "crater_id": 50,
+      "location": {
+        "latitude": -7.92,
+        "longitude": 26.75
+      },
+      "hirata_2020": {
+        "diameter_m": 29.3,
+        "classification": "III"
+      },
+      "noguchi_2021": {
+        "diameter_m": {
+          "mean": 28.4,
+          "std_dev": 3.8
+        },
+        "depth_m": {
+          "mean": 1.9,
+          "std_dev": 0.6
+        },
+        "depth_to_diameter_ratio": {
+          "mean": 0.06,
+          "std_dev": 0.01
+        },
+        "classification": "III"
+      }
+    },
+    {
+      "crater_id": 51,
+      "location": {
+        "latitude": -6.3,
+        "longitude": 319.67
+      },
+      "hirata_2020": {
+        "diameter_m": 28.1,
+        "classification": "III"
+      },
+      "noguchi_2021": {
+        "diameter_m": {
+          "mean": 33.3,
+          "std_dev": 1.7
+        },
+        "depth_m": {
+          "mean": 2.7,
+          "std_dev": 0.8
+        },
+        "depth_to_diameter_ratio": {
+          "mean": 0.08,
+          "std_dev": 0.02
+        },
+        "classification": "III"
+      }
+    },
+    {
+      "crater_id": 52,
+      "location": {
+        "latitude": -5.81,
+        "longitude": 9.76
+      },
+      "hirata_2020": {
+        "diameter_m": 27.6,
+        "classification": "III"
+      },
+      "noguchi_2021": {
+        "diameter_m": {
+          "mean": 37.0,
+          "std_dev": 4.2
+        },
+        "depth_m": {
+          "mean": 2.3,
+          "std_dev": 0.4
+        },
+        "depth_to_diameter_ratio": {
+          "mean": 0.06,
+          "std_dev": 0.01
+        },
+        "classification": "III"
+      }
+    },
+    {
+      "crater_id": 53,
+      "location": {
+        "latitude": 52.36,
+        "longitude": 57.31
+      },
+      "hirata_2020": {
+        "diameter_m": 27.5,
+        "classification": "II"
+      },
+      "noguchi_2021": {
+        "diameter_m": {
+          "mean": 32.6,
+          "std_dev": 1.9
+        },
+        "depth_m": {
+          "mean": 3.6,
+          "std_dev": 0.3
+        },
+        "depth_to_diameter_ratio": {
+          "mean": 0.11,
+          "std_dev": 0.01
+        },
+        "classification": "II"
+      }
+    },
+    {
+      "crater_id": 54,
+      "location": {
+        "latitude": 37.1,
+        "longitude": 73.44
+      },
+      "hirata_2020": {
+        "diameter_m": 26.5,
+        "classification": "II"
+      },
+      "noguchi_2021": {
+        "diameter_m": {
+          "mean": 25.6,
+          "std_dev": 1.3
+        },
+        "depth_m": {
+          "mean": 2.2,
+          "std_dev": 0.7
+        },
+        "depth_to_diameter_ratio": {
+          "mean": 0.09,
+          "std_dev": 0.03
+        },
+        "classification": "II"
+      }
+    },
+    {
+      "crater_id": 55,
+      "location": {
+        "latitude": 79.0,
+        "longitude": 209.0
+      },
+      "hirata_2020": {
+        "diameter_m": 26.0,
+        "classification": "II"
+      },
+      "noguchi_2021": {
+        "diameter_m": {
+          "mean": 35.2,
+          "std_dev": 2.6
+        },
+        "depth_m": {
+          "mean": 3.8,
+          "std_dev": 0.7
+        },
+        "depth_to_diameter_ratio": {
+          "mean": 0.11,
+          "std_dev": 0.01
+        },
+        "classification": "II"
+      }
+    },
+    {
+      "crater_id": 56,
+      "location": {
+        "latitude": 21.44,
+        "longitude": 13.71
+      },
+      "hirata_2020": {
+        "diameter_m": 25.3,
+        "classification": "III"
+      },
+      "noguchi_2021": {
+        "diameter_m": {
+          "mean": 27.0,
+          "std_dev": 1.1
+        },
+        "depth_m": {
+          "mean": 2.9,
+          "std_dev": 0.6
+        },
+        "depth_to_diameter_ratio": {
+          "mean": 0.11,
+          "std_dev": 0.02
+        },
+        "classification": "III"
+      }
+    },
+    {
+      "crater_id": 57,
+      "location": {
+        "latitude": -0.89,
+        "longitude": 4.52
+      },
+      "hirata_2020": {
+        "diameter_m": 24.4,
+        "classification": "III"
+      },
+      "noguchi_2021": {
+        "diameter_m": {
+          "mean": 22.2,
+          "std_dev": 1.5
+        },
+        "depth_m": {
+          "mean": 1.0,
+          "std_dev": 0.5
+        },
+        "depth_to_diameter_ratio": {
+          "mean": 0.05,
+          "std_dev": 0.02
+        },
+        "classification": "III"
+      }
+    },
+    {
+      "crater_id": 58,
+      "location": {
+        "latitude": 4.61,
+        "longitude": 301.74
+      },
+      "hirata_2020": {
+        "diameter_m": 23.6,
+        "classification": "I"
+      },
+      "noguchi_2021": {
+        "diameter_m": {
+          "mean": 28.4,
+          "std_dev": 2.2
+        },
+        "depth_m": {
+          "mean": 2.1,
+          "std_dev": 0.5
+        },
+        "depth_to_diameter_ratio": {
+          "mean": 0.07,
+          "std_dev": 0.02
+        },
+        "classification": "I"
+      }
+    },
+    {
+      "crater_id": 59,
+      "location": {
+        "latitude": -24.0,
+        "longitude": 346.55
+      },
+      "hirata_2020": {
+        "diameter_m": 21.7,
+        "classification": "II"
+      },
+      "noguchi_2021": {
+        "diameter_m": {
+          "mean": 26.8,
+          "std_dev": 4.6
+        },
+        "depth_m": {
+          "mean": 2.2,
+          "std_dev": 0.1
+        },
+        "depth_to_diameter_ratio": {
+          "mean": 0.08,
+          "std_dev": 0.0
+        },
+        "classification": "II"
+      }
+    },
+    {
+      "crater_id": 60,
+      "location": {
+        "latitude": -19.26,
+        "longitude": 102.14
+      },
+      "hirata_2020": {
+        "diameter_m": 21.5,
+        "classification": "III"
+      },
+      "noguchi_2021": {
+        "diameter_m": {
+          "mean": 29.5,
+          "std_dev": 3.6
+        },
+        "depth_m": {
+          "mean": 3.2,
+          "std_dev": 0.6
+        },
+        "depth_to_diameter_ratio": {
+          "mean": 0.11,
+          "std_dev": 0.01
+        },
+        "classification": "III"
+      }
+    },
+    {
+      "crater_id": 61,
+      "location": {
+        "latitude": -2.08,
+        "longitude": 263.1
+      },
+      "hirata_2020": {
+        "diameter_m": 21.0,
+        "classification": "II"
+      },
+      "noguchi_2021": {
+        "diameter_m": {
+          "mean": 22.4,
+          "std_dev": 1.7
+        },
+        "depth_m": {
+          "mean": 1.6,
+          "std_dev": 0.2
+        },
+        "depth_to_diameter_ratio": {
+          "mean": 0.07,
+          "std_dev": 0.01
+        },
+        "classification": "II"
+      }
+    },
+    {
+      "crater_id": 62,
+      "location": {
+        "latitude": 37.02,
+        "longitude": 78.22
+      },
+      "hirata_2020": {
+        "diameter_m": 20.9,
+        "classification": "III"
+      },
+      "noguchi_2021": {
+        "diameter_m": {
+          "mean": 37.5,
+          "std_dev": 1.8
+        },
+        "depth_m": {
+          "mean": 3.5,
+          "std_dev": 0.7
+        },
+        "depth_to_diameter_ratio": {
+          "mean": 0.09,
+          "std_dev": 0.02
+        },
+        "classification": "III"
+      }
+    },
+    {
+      "crater_id": 63,
+      "location": {
+        "latitude": 31.21,
+        "longitude": 208.26
+      },
+      "hirata_2020": {
+        "diameter_m": 20.2,
+        "classification": "III"
+      },
+      "noguchi_2021": {
+        "diameter_m": {
+          "mean": 36.4,
+          "std_dev": 4.7
+        },
+        "depth_m": {
+          "mean": 4.3,
+          "std_dev": 0.6
+        },
+        "depth_to_diameter_ratio": {
+          "mean": 0.12,
+          "std_dev": 0.01
+        },
+        "classification": "III"
+      }
+    },
+    {
+      "crater_id": 64,
+      "location": {
+        "latitude": 8.4,
+        "longitude": 225.72
+      },
+      "hirata_2020": {
+        "diameter_m": 17.2,
+        "classification": "I"
+      },
+      "noguchi_2021": {
+        "diameter_m": {
+          "mean": 47.6,
+          "std_dev": 8.2
+        },
+        "depth_m": {
+          "mean": 3.1,
+          "std_dev": 0.5
+        },
+        "depth_to_diameter_ratio": {
+          "mean": 0.07,
+          "std_dev": 0.01
+        },
+        "classification": "I"
+      }
+    },
+    {
+      "crater_id": 65,
+      "location": {
+        "latitude": 25.81,
+        "longitude": 196.97
+      },
+      "hirata_2020": {
+        "diameter_m": 16.2,
+        "classification": "II"
+      },
+      "noguchi_2021": {
+        "diameter_m": {
+          "mean": 38.8,
+          "std_dev": 4.5
+        },
+        "depth_m": {
+          "mean": 3.1,
+          "std_dev": 0.3
+        },
+        "depth_to_diameter_ratio": {
+          "mean": 0.08,
+          "std_dev": 0.01
+        },
+        "classification": "II"
+      }
+    },
+    {
+      "crater_id": 66,
+      "location": {
+        "latitude": -69.0,
+        "longitude": 211.0
+      },
+      "hirata_2020": {
+        "diameter_m": 16.0,
+        "classification": "II"
+      },
+      "noguchi_2021": {
+        "diameter_m": {
+          "mean": 23.1,
+          "std_dev": 4.5
+        },
+        "depth_m": {
+          "mean": 1.0,
+          "std_dev": 0.4
+        },
+        "depth_to_diameter_ratio": {
+          "mean": 0.04,
+          "std_dev": 0.02
+        },
+        "classification": "II"
+      }
+    },
+    {
+      "crater_id": 67,
+      "location": {
+        "latitude": -31.59,
+        "longitude": 174.66
+      },
+      "hirata_2020": {
+        "diameter_m": 14.5,
+        "classification": "II"
+      },
+      "noguchi_2021": {
+        "diameter_m": {
+          "mean": 14.7,
+          "std_dev": 1.8
+        },
+        "depth_m": {
+          "mean": 1.0,
+          "std_dev": 0.2
+        },
+        "depth_to_diameter_ratio": {
+          "mean": 0.07,
+          "std_dev": 0.01
+        },
+        "classification": "II"
+      }
+    },
+    {
+      "crater_id": 68,
+      "location": {
+        "latitude": -6.96,
+        "longitude": 195.4
+      },
+      "hirata_2020": {
+        "diameter_m": 14.4,
+        "classification": "III"
+      },
+      "noguchi_2021": {
+        "diameter_m": {
+          "mean": 22.1,
+          "std_dev": 4.9
+        },
+        "depth_m": {
+          "mean": 1.0,
+          "std_dev": 0.3
+        },
+        "depth_to_diameter_ratio": {
+          "mean": 0.05,
+          "std_dev": 0.01
+        },
+        "classification": "III"
+      }
+    },
+    {
+      "crater_id": 69,
+      "location": {
+        "latitude": 9.65,
+        "longitude": 149.1
+      },
+      "hirata_2020": {
+        "diameter_m": 14.0,
+        "classification": "I"
+      },
+      "noguchi_2021": {
+        "diameter_m": {
+          "mean": 20.6,
+          "std_dev": 1.9
+        },
+        "depth_m": {
+          "mean": 1.8,
+          "std_dev": 0.4
+        },
+        "depth_to_diameter_ratio": {
+          "mean": 0.09,
+          "std_dev": 0.03
+        },
+        "classification": "I"
+      }
+    },
+    {
+      "crater_id": 70,
+      "location": {
+        "latitude": -8.37,
+        "longitude": 201.1
+      },
+      "hirata_2020": {
+        "diameter_m": 14.0,
+        "classification": "II"
+      },
+      "noguchi_2021": {
+        "diameter_m": {
+          "mean": 19.1,
+          "std_dev": 1.3
+        },
+        "depth_m": {
+          "mean": 1.4,
+          "std_dev": 0.2
+        },
+        "depth_to_diameter_ratio": {
+          "mean": 0.07,
+          "std_dev": 0.01
+        },
+        "classification": "II"
+      }
+    },
+    {
+      "crater_id": 71,
+      "location": {
+        "latitude": -12.89,
+        "longitude": 221.27
+      },
+      "hirata_2020": {
+        "diameter_m": 13.9,
+        "classification": "II"
+      },
+      "noguchi_2021": {
+        "diameter_m": {
+          "mean": 18.3,
+          "std_dev": 1.6
+        },
+        "depth_m": {
+          "mean": 1.4,
+          "std_dev": 0.3
+        },
+        "depth_to_diameter_ratio": {
+          "mean": 0.07,
+          "std_dev": 0.02
+        },
+        "classification": "II"
+      }
+    },
+    {
+      "crater_id": 72,
+      "location": {
+        "latitude": 52.43,
+        "longitude": 100.93
+      },
+      "hirata_2020": {
+        "diameter_m": 12.6,
+        "classification": "II"
+      },
+      "noguchi_2021": {
+        "diameter_m": {
+          "mean": 18.7,
+          "std_dev": 1.5
+        },
+        "depth_m": {
+          "mean": 1.4,
+          "std_dev": 0.2
+        },
+        "depth_to_diameter_ratio": {
+          "mean": 0.08,
+          "std_dev": 0.0
+        },
+        "classification": "II"
+      }
+    },
+    {
+      "crater_id": 73,
+      "location": {
+        "latitude": 23.18,
+        "longitude": 141.89
+      },
+      "hirata_2020": {
+        "diameter_m": 12.5,
+        "classification": "II"
+      },
+      "noguchi_2021": {
+        "diameter_m": {
+          "mean": 16.6,
+          "std_dev": 1.4
+        },
+        "depth_m": {
+          "mean": 1.1,
+          "std_dev": 0.2
+        },
+        "depth_to_diameter_ratio": {
+          "mean": 0.06,
+          "std_dev": 0.01
+        },
+        "classification": "II"
+      }
+    },
+    {
+      "crater_id": 74,
+      "location": {
+        "latitude": 17.15,
+        "longitude": 137.76
+      },
+      "hirata_2020": {
+        "diameter_m": 11.4,
+        "classification": "II"
+      },
+      "noguchi_2021": {
+        "diameter_m": {
+          "mean": 14.1,
+          "std_dev": 3.3
+        },
+        "depth_m": {
+          "mean": 0.7,
+          "std_dev": 0.5
+        },
+        "depth_to_diameter_ratio": {
+          "mean": 0.04,
+          "std_dev": 0.02
+        },
+        "classification": "II"
+      }
+    },
+    {
+      "crater_id": 75,
+      "location": {
+        "latitude": 19.01,
+        "longitude": 224.05
+      },
+      "hirata_2020": {
+        "diameter_m": 11.2,
+        "classification": "II"
+      },
+      "noguchi_2021": {
+        "diameter_m": {
+          "mean": 15.0,
+          "std_dev": 2.6
+        },
+        "depth_m": {
+          "mean": 1.2,
+          "std_dev": 0.3
+        },
+        "depth_to_diameter_ratio": {
+          "mean": 0.08,
+          "std_dev": 0.01
+        },
+        "classification": "II"
+      }
+    },
+    {
+      "crater_id": 76,
+      "location": {
+        "latitude": -35.88,
+        "longitude": 231.29
+      },
+      "hirata_2020": {
+        "diameter_m": 10.5,
+        "classification": "II"
+      },
+      "noguchi_2021": {
+        "diameter_m": {
+          "mean": 16.9,
+          "std_dev": 1.7
+        },
+        "depth_m": {
+          "mean": 1.1,
+          "std_dev": 0.3
+        },
+        "depth_to_diameter_ratio": {
+          "mean": 0.07,
+          "std_dev": 0.01
+        },
+        "classification": "II"
+      }
+    },
+    {
+      "crater_id": 77,
+      "location": {
+        "latitude": 3.4,
+        "longitude": 314.61
+      },
+      "hirata_2020": {
+        "diameter_m": 10.0,
+        "classification": "II"
+      },
+      "noguchi_2021": {
+        "diameter_m": {
+          "mean": 15.3,
+          "std_dev": 2.7
+        },
+        "depth_m": {
+          "mean": 0.5,
+          "std_dev": 0.1
+        },
+        "depth_to_diameter_ratio": {
+          "mean": 0.03,
+          "std_dev": 0.01
+        },
+        "classification": "II"
+      }
+    }
+  ]
+}
