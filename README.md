@@ -48,11 +48,16 @@ python run_pipeline.py outputs --run ryugu-test
 ```
 
 Use `--body all` and `--method both` for the complete project. To perform all
-three stages with one command:
+stages and build the full publication analysis with one command:
 
 ```bash
 python run_pipeline.py all --run complete --body all --method both
 ```
+
+The `all` command calculates measurements, performs literature comparisons,
+creates run-level outputs under `runs/complete/outputs/`, and automatically
+builds the publication tables and figures under `results/analysis/`. The
+publication analysis is available only for all four bodies and both methods.
 
 ## Itokawa population
 

@@ -469,6 +469,30 @@ def outputs(name: str, bodies: list[str] | None, method: str | None) -> None:
     print(f"Outputs complete: {output_dir} ({summary_count} summaries, {figure_count} figures)")
 
 
+def publication_analysis(name: str, bodies: list[str] | None, method: str | None) -> None:
+    """Build the legacy publication tables and figures from a complete run."""
+
+    run_dir = _run_dir(name)
+    manifest = _manifest(run_dir, name)
+    selected_bodies = _selected_bodies(bodies, manifest)
+    selected_methods = _selected_methods(method, manifest)
+    if set(selected_bodies) != set(BODIES) or set(selected_methods) != set(METHODS):
+        print("Publication analysis skipped: select all bodies and both methods.")
+        return
+
+    for body in BODIES:
+        for selected_method in METHODS:
+            source = run_dir / "measurements" / body / f"{selected_method.lower()}.json"
+            defaults = APBT_PATHS[body] if selected_method == "APBT" else CIRCLE_PATHS[body]
+            destination = project_path(defaults.output)
+            destination.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copyfile(source, destination)
+
+    from pipeline import analysis
+
+    analysis.main()
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         description="Measure, compare with literature, and create selected outputs."
@@ -518,6 +542,7 @@ def main(argv: list[str] | None = None) -> int:
             measure(args.run, args.body, args.method, use_saved=args.use_saved)
             compare(args.run, args.body, args.method, args.reference, args.metric)
             outputs(args.run, args.body, args.method)
+            publication_analysis(args.run, args.body, args.method)
     except (WorkflowError, FileNotFoundError, ValueError) as exc:
         parser.error(str(exc))
     return 0
