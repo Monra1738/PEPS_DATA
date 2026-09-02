@@ -4,9 +4,9 @@ This repository is the reproducible computational release for the APBT v2 and
 CIRCLE crater-morphometry comparison on Bennu, Ryugu, Itokawa, and Didymos. The
 active scientific release is `final-all-manual-224`.
 
-The repository contains the complete inputs, measurements, analysis code, and
-derived outputs needed to validate the release. Manuscript source and working
-documents are intentionally excluded.
+The repository contains the complete inputs and analysis code needed to run the
+project from scratch. Generated results and manuscript source are intentionally
+excluded.
 
 ## Release snapshot
 
@@ -54,14 +54,6 @@ three stages with one command:
 python run_pipeline.py all --run complete --body all --method both
 ```
 
-For a fast review using the completed measurement JSON files, add
-`--use-saved` to `measure` or `all`:
-
-```bash
-python run_pipeline.py all --run quick-review --body Ryugu --method apbt \
-  --reference hirata noguchi --use-saved
-```
-
 ## Itokawa population
 
 `inputs/Itokawa/seeds.json` contains all 224 structurally valid manual
@@ -79,16 +71,11 @@ files preserve every attempt.
 ```text
 environment.yml                 pinned Python environment
 inputs/
-  manifest.json                 release counts and policies
   <Body>/
     seeds.json                  final active seed groups
     *_config.json               measurement parameters
     literature.json             literature comparison data
     meshes/*.vtk                meshes referenced by active seeds
-results/
-  release_manifest.json         release labels and integrity hashes
-  <Body>/                       completed measurements and run records
-  analysis/                     reproducibly generated tables and figures
 methods/                        crater measurement algorithms
 pipeline/                       output generation and literature comparisons
 scripts/                        measurement entry points and path mapping
@@ -97,7 +84,5 @@ utils/                          shared geometry and identifier helpers
 run_pipeline.py                 simple public pipeline entry point
 ```
 
-The eight `results/<Body>/{apbt,circle}.json` files are the completed
-measurements and the source of truth for derived analysis. Their integrity,
-together with final inputs and the measurement implementation, is recorded in
-`results/release_manifest.json`.
+The `results/` directory is created locally when you run measurements and
+analysis. It is intentionally not included in this repository.
