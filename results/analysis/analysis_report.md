@@ -11,19 +11,19 @@
 | Bennu | APBT | diameter | Daly | 33 | 6.504 | 10.757 |
 | Bennu | APBT | diameter | Bierhaus | 44 | 6.251 | 13.266 |
 | Bennu | APBT | diameter | Deshapriya | 45 | 6.749 | 13.387 |
-| Ryugu | APBT | depth | Noguchi | 77 | 0.916 | 17.976 |
-| Ryugu | APBT | diameter | Noguchi | 77 | 5.551 | 11.464 |
-| Itokawa | APBT | depth | Naru-Hirata | 21 | 2.663 | 66.688 |
-| Itokawa | APBT | diameter | Naru-Hirata | 21 | 5.104 | 9.832 |
+| Ryugu | APBT | depth | Noguchi | 77 | 0.916 | 17.978 |
+| Ryugu | APBT | diameter | Noguchi | 77 | 5.569 | 11.482 |
+| Itokawa | APBT | depth | Naru-Hirata | 21 | 2.660 | 66.516 |
+| Itokawa | APBT | diameter | Naru-Hirata | 21 | 5.156 | 9.943 |
 | Didymos | APBT | diameter | Barnouin | 16 | 11.597 | 12.215 |
 | Bennu | CIRCLE | depth | Daly | 32 | 1.948 | 38.803 |
 | Bennu | CIRCLE | diameter | Daly | 32 | 8.003 | 14.051 |
 | Bennu | CIRCLE | diameter | Bierhaus | 41 | 7.001 | 18.278 |
 | Bennu | CIRCLE | diameter | Deshapriya | 42 | 8.115 | 19.222 |
-| Ryugu | CIRCLE | depth | Noguchi | 77 | 1.123 | 21.577 |
-| Ryugu | CIRCLE | diameter | Noguchi | 77 | 6.747 | 14.228 |
-| Itokawa | CIRCLE | depth | Naru-Hirata | 20 | 4.143 | 82.063 |
-| Itokawa | CIRCLE | diameter | Naru-Hirata | 20 | 7.527 | 13.257 |
+| Ryugu | CIRCLE | depth | Noguchi | 77 | 1.123 | 21.574 |
+| Ryugu | CIRCLE | diameter | Noguchi | 77 | 6.746 | 14.226 |
+| Itokawa | CIRCLE | depth | Naru-Hirata | 20 | 4.161 | 82.635 |
+| Itokawa | CIRCLE | diameter | Naru-Hirata | 20 | 7.358 | 12.892 |
 | Didymos | CIRCLE | diameter | Barnouin | 14 | 17.854 | 16.102 |
 
 ## Source provenance

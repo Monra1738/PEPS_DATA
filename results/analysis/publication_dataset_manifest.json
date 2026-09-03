@@ -8,12 +8,12 @@
     "Ryugu": {
       "standalone": "all available finite positive-depth results in the selected publication source",
       "direct_method_comparison": "identical APBT-CIRCLE valid seed identities",
-      "paired_common_seed_count": 228
+      "paired_common_seed_count": 229
     },
     "Itokawa": {
       "standalone": "all available finite positive-depth results in the selected publication source",
       "direct_method_comparison": "identical APBT-CIRCLE valid seed identities",
-      "paired_common_seed_count": 156
+      "paired_common_seed_count": 155
     },
     "Didymos": {
       "standalone": "all available finite positive-depth results in the selected publication source",
@@ -45,40 +45,40 @@
     "Ryugu": {
       "APBT": {
         "path": "results/Ryugu/apbt.json",
-        "sha256": "ffbbb03ed0acd4f5ff35fd60484d1ae295c60f0646892ee01d7b7e032e629432",
+        "sha256": "adfccdd89828d96645c62c043fcd2f0a97ce820e76684da9cc9488c4bfd45baa",
         "provenance": "declared_final_release",
         "expected_seed_configurations": 230,
-        "valid_runs": 229,
-        "invalid_or_unavailable_runs": 1,
+        "valid_runs": 230,
+        "invalid_or_unavailable_runs": 0,
         "valid_craters": 77
       },
       "CIRCLE": {
         "path": "results/Ryugu/circle.json",
-        "sha256": "f2373125ca89647c581056eef0f99ffc366c0d1cadf9fe6f72194f04275eb8f0",
+        "sha256": "674bf2f47e2da87bb50e75834247312dab8b293f0a2f30826527b4c9003620ee",
         "provenance": "declared_final_release",
         "expected_seed_configurations": 230,
-        "valid_runs": 228,
-        "invalid_or_unavailable_runs": 2,
+        "valid_runs": 229,
+        "invalid_or_unavailable_runs": 1,
         "valid_craters": 77
       }
     },
     "Itokawa": {
       "APBT": {
         "path": "results/Itokawa/apbt.json",
-        "sha256": "d43c994f7d98a50074672200f55a6b333d1baee0980975519c51dcb232ac0421",
+        "sha256": "1a0c64235c0d2e3410f48ed2808af54799f09662d013a13cc09f099eba0d5fcf",
         "provenance": "declared_final_release",
-        "expected_seed_configurations": 224,
-        "valid_runs": 217,
-        "invalid_or_unavailable_runs": 7,
+        "expected_seed_configurations": 215,
+        "valid_runs": 215,
+        "invalid_or_unavailable_runs": 0,
         "valid_craters": 21
       },
       "CIRCLE": {
         "path": "results/Itokawa/circle.json",
-        "sha256": "c625d3a0d48e4c6903ad2f256da4c7728c9dc74eebfea6c88c08b57ceb35777f",
+        "sha256": "ba6c0a639116cd74cc15712912ddd0f58b0b19c6cf80d400b00e82276f116f0c",
         "provenance": "declared_final_release",
-        "expected_seed_configurations": 224,
-        "valid_runs": 158,
-        "invalid_or_unavailable_runs": 66,
+        "expected_seed_configurations": 215,
+        "valid_runs": 155,
+        "invalid_or_unavailable_runs": 60,
         "valid_craters": 20
       }
     },
