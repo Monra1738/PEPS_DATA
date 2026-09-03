@@ -91,3 +91,15 @@ run_pipeline.py                 simple public pipeline entry point
 
 The `results/` directory is created locally when you run measurements and
 analysis. It is intentionally not included in this repository.
+
+
+"""
+
+ for body in Bennu Ryugu Itokawa Didymos; do
+    mkdir -p "results/$body"
+    cp "runs/complete/measurements/$body/apbt.json" "results/$body/apbt.json"
+    cp "runs/complete/measurements/$body/circle.json" "results/$body/circle.json"
+  done
+
+  python pipeline/analysis.py
+  """
