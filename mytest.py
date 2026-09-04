@@ -152,25 +152,25 @@ def main():
                 cmap="terrain",
                 scalar_bar_args={"title": score_field},
             )
-            # plotter.add_mesh(
-            #     pv.PolyData(projection_mesh.points[seed_indices]),
-            #     color="yellow",
-            #     point_size=14,
-            #     render_points_as_spheres=True,
-            # )
-            # smooth_loop = np.vstack((smooth_points, smooth_points[0]))
-            # plotter.add_mesh(
-            #     pv.lines_from_points(smooth_loop),
-            #     color="red",
-            #     line_width=5,
-            # )
-            # plotter.add_mesh(
-            #     pv.PolyData(smooth_points),
-            #     color="red",
-            #     point_size=7,
-            #     render_points_as_spheres=True,
-            # )
-            # plotter.add_text(f"{body} {crater} seed={args.seed}", font_size=12)
+            plotter.add_mesh(
+                pv.PolyData(projection_mesh.points[seed_indices]),
+                color="yellow",
+                point_size=14,
+                render_points_as_spheres=True,
+            )
+            smooth_loop = np.vstack((smooth_points, smooth_points[0]))
+            plotter.add_mesh(
+                pv.lines_from_points(smooth_loop),
+                color="red",
+                line_width=5,
+            )
+            plotter.add_mesh(
+                pv.PolyData(smooth_points),
+                color="red",
+                point_size=7,
+                render_points_as_spheres=True,
+            )
+            plotter.add_text(f"{body} {crater} seed={args.seed}", font_size=12)
             plotter.view_xy()
             plotter.camera.parallel_projection = True
             destination = output / body / f"{crater}_seed_{args.seed}.png"
