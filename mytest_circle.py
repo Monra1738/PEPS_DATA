@@ -142,19 +142,19 @@ def main():
                 cmap="terrain",
                 scalar_bar_args={"title": "circle_signal"},
             )
-            plotter.add_mesh(
-                pv.PolyData(mesh.points[seed_indices]),
-                color="yellow",
-                point_size=14,
-                render_points_as_spheres=True,
-            )
+            # plotter.add_mesh(
+            #     pv.PolyData(mesh.points[seed_indices]),
+            #     color="yellow",
+            #     point_size=14,
+            #     render_points_as_spheres=True,
+            # )
           
-            rim_loop = np.vstack((projected_rim, projected_rim[0]))
-            plotter.add_mesh(
-                pv.lines_from_points(rim_loop),
-                color="red",
-                line_width=5,
-            )
+            # rim_loop = np.vstack((projected_rim, projected_rim[0]))
+            # plotter.add_mesh(
+            #     pv.lines_from_points(rim_loop),
+            #     color="red",
+            #     line_width=5,
+            # )
             plotter.view_xy()
             plotter.camera.parallel_projection = True
             plotter.add_text(f"CIRCLE {body} {crater} seed={args.seed}", font_size=12)

@@ -11,7 +11,6 @@ import tempfile
 from importlib import import_module
 from pathlib import Path
 
-from data.literature import return_lit_id_hirata
 from pipeline.literature_validation import CASES
 from pipeline.summaries import (
     case_metrics,
@@ -220,20 +219,7 @@ def measure(
 
 
 def _comparison_cases() -> list[dict]:
-    cases = list(CASES)
-    for method in METHODS:
-        cases.append(
-            {
-                "asteroid": "Ryugu",
-                "method": method,
-                "metric": "diameter",
-                "reference": "Hirata",
-                "literature_fn": return_lit_id_hirata,
-                "literature_value_key": "hirata_diameter_m",
-                "literature_std_key": None,
-            }
-        )
-    return cases
+    return list(CASES)
 
 
 def _reference_matches(requested: list[str], reference: str) -> bool:

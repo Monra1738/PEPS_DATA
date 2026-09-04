@@ -5,7 +5,7 @@ These are analysis mappings, not gates that can reject or change measurements.
 
 from __future__ import annotations
 
-from data.literature import return_lit_id_noguchi
+from data.literature import return_lit_id_hirata, return_lit_id_noguchi
 from data.literature_bennu import (
     return_lit_id_bierhaus,
     return_lit_id_daly,
@@ -53,10 +53,11 @@ for _method in ("APBT", "CIRCLE"):
          "noguchi_depth_mean", "noguchi_depth_std")
     _add("Ryugu", _method, "diameter", "Noguchi", return_lit_id_noguchi,
          "noguchi_diameter_mean", "noguchi_diameter_std")
+    _add("Ryugu", _method, "diameter", "Hirata", return_lit_id_hirata,
+         "hirata_diameter_m", None)
     _add("Itokawa", _method, "depth", "Naru-Hirata", return_lit_id_naru_hirata,
          "naru_hirata_depth_m", None)
     _add("Itokawa", _method, "diameter", "Naru-Hirata", return_lit_id_naru_hirata,
          "naru_hirata_diameter_m", "naru_hirata_diameter_std_m")
     _add("Didymos", _method, "diameter", "Barnouin", return_lit_id_barnouin,
          "Barnouin_diameter_m", "Barnouin_diameter_std_m")
-
