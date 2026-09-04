@@ -2,25 +2,27 @@
 
 This repository is the reproducible computational release for the APBT v2 and
 CIRCLE crater-morphometry comparison on Bennu, Ryugu, Itokawa, and Didymos.
-The active scientific release is `final-all-manual-224`.
+The current working release uses the cleaned Itokawa seed set described below.
 
-It contains the measurement inputs, analysis code, and the declared final
-measurement results used by the presented-paper analysis. Manuscript sources
-and other local working documents are intentionally excluded.
+It contains the measurement inputs, analysis code, and regenerated measurement
+results used by the current analysis. Manuscript sources and other local
+working documents are intentionally excluded.
 
-## Release snapshot
+## Current results
 
-| Body | Craters | Final seed groups | Valid APBT | Valid CIRCLE |
+| Body | Craters | Active seed groups | Valid APBT | Valid CIRCLE |
 |---|---:|---:|---:|---:|
-| Bennu | 45 | 135 | 135 | 123 |
+| Bennu | 45 | 135 | 135 | 124 |
 | Ryugu | 77 | 230 | 230 | 229 |
-| Itokawa | 21 | 224 | 217 | 158 |
-| Didymos | 20 | 60 | 60 | 53 |
-| **Total** | **163** | **649** | **642** | **563** |
+| Itokawa | 21 | 202 | 202 | 145 |
+| Didymos | 20 | 60 | 60 | 54 |
+| **Total** | **163** | **627** | **627** | **552** |
 
-Mesh coordinates are supplied in kilometres. Saved diameters and depths are
-in metres. The 163 VTK files under `inputs/` are required measurement inputs
-and are stored as ASCII mesh data.
+APBT completed successfully for all 627 active seed groups. CIRCLE produced
+552 valid results; its 75 failed attempts are retained in the run-status JSON
+files. Mesh coordinates are supplied in kilometres. Saved diameters and depths
+are in metres. The 163 VTK files under `inputs/` are required measurement
+inputs and are stored as ASCII mesh data.
 
 ## Installation
 
@@ -31,25 +33,22 @@ conda env create -f environment.yml
 conda activate apbt-repro
 ```
 
-## Reproduce the release
+## Run the project
 
-The checked-in JSON files under `results/<Body>/` are the declared final
-measurements. Use `--use-saved` to build a complete run from those files
-without recalculating the measurements:
+Run the complete analysis from the current inputs with a new run name:
 
 ```bash
 python run_pipeline.py all \
   --run complete \
   --body all \
-  --method both \
-  --use-saved
+  --method both
 ```
 
-This performs measurement staging, literature comparison, and output
-generation. It writes run-specific files to `runs/complete/outputs/` and
-regenerates the publication tables and figures under `results/analysis/`.
+The pipeline measures the selected bodies and methods, compares the results
+with literature, and creates CSV summaries and PNG figures. Run-specific files
+are written under `runs/<name>/outputs/`. Use a new run name when rerunning;
+existing measurement files are kept by the workflow.
 
-To recalculate measurements from the inputs instead, omit `--use-saved`.
 Individual stages can also be run separately:
 
 ```bash
@@ -68,44 +67,46 @@ CIRCLE. Valid run names contain only letters, numbers, `.`, `-`, and `_`.
 
 ## Verified analysis results
 
-The checked-in report at `results/analysis/analysis_report.md` contains 18
-standalone literature-validation cases. The aggregate error results are:
+The regenerated report at `results/analysis/analysis_report.md` contains 20
+standalone literature-validation cases:
 
 | Body | Method | Metric | Reference | N | MAE (m) | MAPE (%) |
 |---|---|---|---|---:|---:|---:|
-| Bennu | APBT | depth | Daly | 33 | 1.343 | 28.938 |
-| Bennu | APBT | diameter | Daly | 33 | 6.504 | 10.757 |
-| Bennu | APBT | diameter | Bierhaus | 44 | 6.251 | 13.266 |
-| Bennu | APBT | diameter | Deshapriya | 45 | 6.749 | 13.387 |
+| Bennu | APBT | depth | Daly | 33 | 1.340 | 28.886 |
+| Bennu | APBT | diameter | Daly | 33 | 6.590 | 10.842 |
+| Bennu | APBT | diameter | Bierhaus | 44 | 6.186 | 13.210 |
+| Bennu | APBT | diameter | Deshapriya | 45 | 6.686 | 13.332 |
 | Ryugu | APBT | depth | Noguchi | 77 | 0.916 | 17.978 |
 | Ryugu | APBT | diameter | Noguchi | 77 | 5.569 | 11.482 |
-| Itokawa | APBT | depth | Naru-Hirata | 21 | 2.663 | 66.688 |
-| Itokawa | APBT | diameter | Naru-Hirata | 21 | 5.104 | 9.832 |
-| Didymos | APBT | diameter | Barnouin | 16 | 11.597 | 12.215 |
-| Bennu | CIRCLE | depth | Daly | 32 | 1.948 | 38.803 |
-| Bennu | CIRCLE | diameter | Daly | 32 | 8.003 | 14.051 |
-| Bennu | CIRCLE | diameter | Bierhaus | 41 | 7.001 | 18.278 |
-| Bennu | CIRCLE | diameter | Deshapriya | 42 | 8.115 | 19.222 |
+| Ryugu | APBT | diameter | Hirata | 77 | 7.568 | 22.306 |
+| Itokawa | APBT | depth | Naru-Hirata | 21 | 2.690 | 66.606 |
+| Itokawa | APBT | diameter | Naru-Hirata | 21 | 4.976 | 9.657 |
+| Didymos | APBT | diameter | Barnouin | 16 | 11.682 | 12.247 |
+| Bennu | CIRCLE | depth | Daly | 32 | 1.966 | 39.058 |
+| Bennu | CIRCLE | diameter | Daly | 32 | 8.128 | 14.175 |
+| Bennu | CIRCLE | diameter | Bierhaus | 41 | 6.903 | 18.193 |
+| Bennu | CIRCLE | diameter | Deshapriya | 42 | 8.019 | 19.139 |
 | Ryugu | CIRCLE | depth | Noguchi | 77 | 1.123 | 21.574 |
 | Ryugu | CIRCLE | diameter | Noguchi | 77 | 6.746 | 14.226 |
-| Itokawa | CIRCLE | depth | Naru-Hirata | 20 | 4.143 | 82.063 |
-| Itokawa | CIRCLE | diameter | Naru-Hirata | 20 | 7.527 | 13.257 |
-| Didymos | CIRCLE | diameter | Barnouin | 14 | 17.854 | 16.102 |
+| Ryugu | CIRCLE | diameter | Hirata | 77 | 9.294 | 30.813 |
+| Itokawa | CIRCLE | depth | Naru-Hirata | 19 | 3.719 | 83.562 |
+| Itokawa | CIRCLE | diameter | Naru-Hirata | 19 | 7.301 | 13.458 |
+| Didymos | CIRCLE | diameter | Barnouin | 14 | 17.531 | 15.982 |
 
 The validation data are comparisons only; they do not reject or alter the
 declared measurements.
 
 ## Itokawa population
 
-`inputs/Itokawa/seeds.json` contains all 224 structurally valid manual
-four-index groups across 21 craters. The original manual pool contained 226
-groups; two groups were excluded before measurement because each repeated a
-vertex index. No random or replacement mesh points were generated.
+`inputs/Itokawa/seeds.json` contains 202 active manual four-index groups across
+21 craters. The original manual pool contained 226 groups. Two groups were
+excluded because each repeated a vertex index, and 22 additional groups were
+removed during APBT validation. No random or replacement mesh points were
+generated.
 
-APBT saved 217 finite positive results and rejected seven invalid rim/floor
-geometries. CIRCLE saved 158 finite positive results and rejected 66. There
-are 156 seed identities with a valid result from both methods. The run-status
-JSON files preserve every attempt.
+APBT produced 202/202 valid results with no remaining invalid attempts. CIRCLE
+produced 145/202 valid results; 57 attempts failed because of non-positive
+rim/floor depth estimates. The run-status JSON files preserve every attempt.
 
 ## Repository layout
 
@@ -113,7 +114,7 @@ JSON files preserve every attempt.
 environment.yml                 pinned Python environment
 inputs/
   <Body>/
-    seeds.json                  final active seed groups
+    seeds.json                  active seed groups
     *_config.json               measurement parameters
     literature.json             literature comparison data
     meshes/*.vtk                meshes referenced by active seeds
@@ -122,18 +123,7 @@ pipeline/                       workflow, summaries, and analysis
 scripts/                        measurement entry points and path mapping
 data/                           literature-data adapters
 run_pipeline.py                 public pipeline entry point
-results/<Body>/                 declared final measurement JSON files
+results/<Body>/                 regenerated measurement JSON files
 results/analysis/               verified tables, figures, and report
 runs/<name>/                    local staged-run outputs (created at runtime)
 ```
-
-```bash
-for body in Bennu Ryugu Itokawa Didymos; do
-    mkdir -p "results/$body"
-    cp "runs/complete/measurements/$body/apbt.json" "results/$body/apbt.json"
-    cp "runs/complete/measurements/$body/circle.json" "results/$body/circle.json"
-  done
-
-  python pipeline/analysis.py
-
-  ```
