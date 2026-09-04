@@ -1,0 +1,106 @@
+{
+  "policy": {
+    "Bennu": {
+      "standalone": "all available finite positive-depth results in the selected publication source",
+      "direct_method_comparison": "identical APBT-CIRCLE valid seed identities",
+      "paired_common_seed_count": 124
+    },
+    "Ryugu": {
+      "standalone": "all available finite positive-depth results in the selected publication source",
+      "direct_method_comparison": "identical APBT-CIRCLE valid seed identities",
+      "paired_common_seed_count": 229
+    },
+    "Itokawa": {
+      "standalone": "all available finite positive-depth results in the selected publication source",
+      "direct_method_comparison": "identical APBT-CIRCLE valid seed identities",
+      "paired_common_seed_count": 145
+    },
+    "Didymos": {
+      "standalone": "all available finite positive-depth results in the selected publication source",
+      "direct_method_comparison": "identical APBT-CIRCLE valid seed identities",
+      "paired_common_seed_count": 54
+    }
+  },
+  "sources": {
+    "Bennu": {
+      "APBT": {
+        "path": "results/Bennu/apbt.json",
+        "sha256": "1c761a870d215d7d7333ec1ca5e5dc8d8ce6a2a93e2030d7355a5c1c2cda97a8",
+        "provenance": "declared_final_release",
+        "expected_seed_configurations": 135,
+        "valid_runs": 135,
+        "invalid_or_unavailable_runs": 0,
+        "valid_craters": 45
+      },
+      "CIRCLE": {
+        "path": "results/Bennu/circle.json",
+        "sha256": "0b5af5eb8cfa09b0c9ee561744b528a22498e4f86fd01e4d3336fec6c047f126",
+        "provenance": "declared_final_release",
+        "expected_seed_configurations": 135,
+        "valid_runs": 124,
+        "invalid_or_unavailable_runs": 11,
+        "valid_craters": 42
+      }
+    },
+    "Ryugu": {
+      "APBT": {
+        "path": "results/Ryugu/apbt.json",
+        "sha256": "adfccdd89828d96645c62c043fcd2f0a97ce820e76684da9cc9488c4bfd45baa",
+        "provenance": "declared_final_release",
+        "expected_seed_configurations": 230,
+        "valid_runs": 230,
+        "invalid_or_unavailable_runs": 0,
+        "valid_craters": 77
+      },
+      "CIRCLE": {
+        "path": "results/Ryugu/circle.json",
+        "sha256": "674bf2f47e2da87bb50e75834247312dab8b293f0a2f30826527b4c9003620ee",
+        "provenance": "declared_final_release",
+        "expected_seed_configurations": 230,
+        "valid_runs": 229,
+        "invalid_or_unavailable_runs": 1,
+        "valid_craters": 77
+      }
+    },
+    "Itokawa": {
+      "APBT": {
+        "path": "results/Itokawa/apbt.json",
+        "sha256": "19b72a4d2757766e8fc8f4a05f5dd693c2b04c273b7e8d00d2fde3070cb220e9",
+        "provenance": "declared_final_release",
+        "expected_seed_configurations": 202,
+        "valid_runs": 202,
+        "invalid_or_unavailable_runs": 0,
+        "valid_craters": 21
+      },
+      "CIRCLE": {
+        "path": "results/Itokawa/circle.json",
+        "sha256": "d727e5a861c56dbd96a96d5c184c40f1058de21c4dc308c298a0c68533607143",
+        "provenance": "declared_final_release",
+        "expected_seed_configurations": 202,
+        "valid_runs": 145,
+        "invalid_or_unavailable_runs": 57,
+        "valid_craters": 19
+      }
+    },
+    "Didymos": {
+      "APBT": {
+        "path": "results/Didymos/apbt.json",
+        "sha256": "09bf58e4c2297bd526d48ca31eaf2a5704709693dbdb2e3e9c487a7df086544b",
+        "provenance": "declared_final_release",
+        "expected_seed_configurations": 60,
+        "valid_runs": 60,
+        "invalid_or_unavailable_runs": 0,
+        "valid_craters": 20
+      },
+      "CIRCLE": {
+        "path": "results/Didymos/circle.json",
+        "sha256": "891eaafab1805dc0d78d310d6688db634a723d6ab56eda75e06dd57e7623fed1",
+        "provenance": "declared_final_release",
+        "expected_seed_configurations": 60,
+        "valid_runs": 54,
+        "invalid_or_unavailable_runs": 6,
+        "valid_craters": 18
+      }
+    }
+  }
+}
